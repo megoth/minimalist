@@ -1,0 +1,39 @@
+a {
+  color: $color-link;
+}
+blockquote {
+  background-color: $color-standout;
+  color: $color-standout-dark;
+  padding: 1em;
+}
+body {
+  @include typography-default;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h1 {
+  @include typography-title-large;
+}
+h2 {
+  @include typography-title-medium;
+}
+h3 {
+  @include typography-title-small;
+}
+h4,
+h5,
+h6 {
+  @include typography-title;
+}
+header {
+  margin-bottom: 0.5em;
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,9 @@
+#MasterContainer {
+  margin: 0 auto $dimension-footer-height * -1;
+  .push {
+    height: $dimension-footer-height;
+  }
+}
+#MasterFooter {
+  height: $dimension-footer-height;
+}

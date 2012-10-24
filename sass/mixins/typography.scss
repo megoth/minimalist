@@ -1,0 +1,20 @@
+@mixin typography-default {
+  font-family: "Helvetica";
+}
+@mixin typography-title {
+  font-family: "Gill Sans";
+  font-size: 1em;
+  font-weight: bold;
+}
+@mixin typography-title-large {
+  @include typography-title;
+  font-size: 3em;
+}
+@mixin typography-title-medium {
+  @include typography-title;
+  font-size: 2em;
+}
+@mixin typography-title-small {
+  @include typography-title;
+  font-size: 1.5em;
+}
