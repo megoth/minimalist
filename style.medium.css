@@ -1,0 +1,31 @@
+/* line 1, sass/patterns/block.medium.scss */
+.block-container {
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 0;
+}
+
+/* line 2, sass/patterns/tags.medium.scss */
+body,
+html {
+  height: 100%;
+}
+
+/* line 1, sass/unique/master.medium.scss */
+#MasterContainer {
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -5em;
+  min-height: 100%;
+}
+/* line 6, sass/unique/master.medium.scss */
+#MasterContainer .push {
+  display: block;
+  height: 5em;
+}
+
+/* line 11, sass/unique/master.medium.scss */
+#MasterFooter {
+  height: 5em;
+  margin: 0 auto;
+}

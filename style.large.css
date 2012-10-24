@@ -1,0 +1,18 @@
+/* line 1, sass/patterns/block.large.scss */
+.block-container {
+  max-width: 50em;
+}
+
+/* line 1, sass/unique/master.large.scss */
+#MasterContainer {
+  margin: 0 auto -5em;
+}
+/* line 3, sass/unique/master.large.scss */
+#MasterContainer .push {
+  height: 5em;
+}
+
+/* line 7, sass/unique/master.large.scss */
+#MasterFooter {
+  height: 5em;
+}
