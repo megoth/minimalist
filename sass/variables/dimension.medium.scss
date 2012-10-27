@@ -1,3 +1,8 @@
 
-$dimension-container-width: 35em;
+$dimension-container-width: 43em;
 $dimension-footer-height: 5em;
+$dimension-grid-margin: 1em;
+$dimension-grid-width: ($dimension-container-width - $dimension-grid-margin) / 2;
+$dimension-main-nav-height: 4em;
+$dimension-main-nav-width: 4em;
+$dimension-main-nav-triangle: 0.5em;

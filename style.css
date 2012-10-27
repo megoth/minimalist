@@ -4438,6 +4438,11 @@ button.close {
 }
 
 /* line 1, sass/patterns/bootstrap.scss */
+.nav {
+  margin-bottom: 0;
+}
+
+/* line 4, sass/patterns/bootstrap.scss */
 .nav-tabs > li > a {
   padding-left: 1em;
   padding-right: 1em;
@@ -4446,22 +4451,32 @@ button.close {
 
 /* line 1, sass/patterns/tags.scss */
 a {
-  color: #284c7e;
+  color: #a2c0c1;
+  text-decoration: none;
+}
+/* line 13, sass/mixins/typography.scss */
+a:hover {
+  text-decoration: underline;
 }
 
 /* line 4, sass/patterns/tags.scss */
 blockquote {
-  background-color: #6996d3;
-  color: #05316d;
   padding: 1em;
 }
 
-/* line 9, sass/patterns/tags.scss */
+/* line 7, sass/patterns/tags.scss */
 body {
-  font-family: "Helvetica";
+  color: black;
+  font-family: "Georgia";
+  text-decoration: none;
+}
+/* line 5, sass/mixins/typography.scss */
+body:hover {
+  color: black;
+  text-decoration: none;
 }
 
-/* line 17, sass/patterns/tags.scss */
+/* line 15, sass/patterns/tags.scss */
 h1,
 h2,
 h3,
@@ -4470,99 +4485,218 @@ h5,
 h6 {
   margin: 0;
 }
-
-/* line 20, sass/patterns/tags.scss */
-h1 {
-  font-family: "Gill Sans";
+/* line 17, sass/patterns/tags.scss */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: black;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: none;
+}
+/* line 23, sass/mixins/typography.scss */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 21, sass/patterns/tags.scss */
+h1 {
+  color: black;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
   font-size: 3em;
 }
+/* line 23, sass/mixins/typography.scss */
+h1:hover {
+  color: black;
+  text-decoration: none;
+}
 
-/* line 23, sass/patterns/tags.scss */
+/* line 24, sass/patterns/tags.scss */
 h2 {
-  font-family: "Gill Sans";
+  color: black;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: none;
   font-size: 2em;
 }
-
-/* line 26, sass/patterns/tags.scss */
-h3 {
-  font-family: "Gill Sans";
-  font-size: 1em;
-  font-weight: bold;
-  font-size: 1.5em;
+/* line 23, sass/mixins/typography.scss */
+h2:hover {
+  color: black;
+  text-decoration: none;
 }
 
-/* line 31, sass/patterns/tags.scss */
+/* line 27, sass/patterns/tags.scss */
+h3 {
+  color: black;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+/* line 23, sass/mixins/typography.scss */
+h3:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 32, sass/patterns/tags.scss */
 h4,
 h5,
 h6 {
-  font-family: "Gill Sans";
+  color: black;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: none;
+}
+/* line 23, sass/mixins/typography.scss */
+h4:hover,
+h5:hover,
+h6:hover {
+  color: black;
+  text-decoration: none;
 }
 
-/* line 34, sass/patterns/tags.scss */
+/* line 35, sass/patterns/tags.scss */
 header {
   margin-bottom: 0.5em;
 }
-/* line 36, sass/patterns/tags.scss */
+/* line 37, sass/patterns/tags.scss */
 header a {
   text-decoration: none;
 }
 
-/* line 2, sass/unique/master.scss */
+/* line 5, sass/unique/master.scss */
 #MasterContent article {
   border-bottom: solid 1px #dddddd;
   margin: 1em 0;
   padding: 0 1em 1em;
 }
-/* line 6, sass/unique/master.scss */
+/* line 9, sass/unique/master.scss */
 #MasterContent article:last-child {
   border-bottom: 0;
 }
-/* line 11, sass/unique/master.scss */
+/* line 14, sass/unique/master.scss */
+#MasterContent .entry-content blockquote {
+  border: dotted 1px #dddddd;
+}
+/* line 16, sass/unique/master.scss */
 #MasterContent .entry-content blockquote p {
   margin: 0;
 }
-/* line 15, sass/unique/master.scss */
-#MasterContent .entry-content ol,
-#MasterContent .entry-content ul {
+/* line 23, sass/unique/master.scss */
+#MasterContent .entry-content ol ol,
+#MasterContent .entry-content ol ul,
+#MasterContent .entry-content ul ol,
+#MasterContent .entry-content ul ul {
   margin: 1em 0 1em 1.2em;
 }
-/* line 19, sass/unique/master.scss */
+/* line 28, sass/unique/master.scss */
 #MasterContent .entry-content ol li {
   list-style-type: decimal;
 }
-/* line 23, sass/unique/master.scss */
+/* line 32, sass/unique/master.scss */
 #MasterContent .entry-content p {
   margin: 1em 0;
 }
-/* line 27, sass/unique/master.scss */
+/* line 36, sass/unique/master.scss */
 #MasterContent .entry-content ul li {
   list-style-type: square;
 }
 
-/* line 33, sass/unique/master.scss */
-#MasterHeader {
-  background-color: #eeeeee;
-  border-bottom: solid 1px #dddddd;
+/* line 47, sass/unique/master.scss */
+#MasterHeader h1,
+#MasterHeader h2,
+#MasterHeader h3 {
+  color: black;
+  font-family: "Georgia";
+  text-decoration: none;
 }
-/* line 36, sass/unique/master.scss */
-#MasterHeader .menu {
-  border-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 0.5em;
+/* line 5, sass/mixins/typography.scss */
+#MasterHeader h1:hover,
+#MasterHeader h2:hover,
+#MasterHeader h3:hover {
+  color: black;
+  text-decoration: none;
+}
+/* line 50, sass/unique/master.scss */
+#MasterHeader h1 {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 52, sass/unique/master.scss */
+#MasterHeader h1 span {
+  clear: left;
+  float: left;
+}
+/* line 56, sass/unique/master.scss */
+#MasterHeader h1 .first {
+  font-size: 2.2em;
+}
+/* line 59, sass/unique/master.scss */
+#MasterHeader h1 .second {
+  font-size: 1.25em;
 }
 
-/* line 42, sass/unique/master.scss */
-#MasterFooter {
-  background-color: #eeeeee;
-  border-top: solid 1px #dddddd;
+/* line 65, sass/unique/master.scss */
+#MasterNavigation ul.nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
 }
-/* line 45, sass/unique/master.scss */
-#MasterFooter .menu {
-  border-top: 0;
+/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#MasterNavigation ul.nav li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#MasterNavigation ul.nav li:first-child, #MasterNavigation ul.nav li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#MasterNavigation ul.nav li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#MasterNavigation ul.nav li.last {
+  padding-right: 0;
+}
+/* line 67, sass/unique/master.scss */
+#MasterNavigation ul.nav li {
+  padding: 0;
+}
+/* line 70, sass/unique/master.scss */
+#MasterNavigation ul.nav a {
+  background-color: #a2c0c1;
+  color: white;
+  display: block;
+  margin-right: 1em;
+  padding: 1em;
+}
+/* line 77, sass/unique/master.scss */
+#MasterNavigation ul.nav .triangle {
+  display: none;
 }

@@ -1,10 +1,29 @@
 @mixin typography-default {
-  font-family: "Helvetica";
+  color: $color-text;
+  font-family: "Georgia";
+  text-decoration: none;
+  &:hover {
+    color: $color-text;
+    text-decoration: none;
+  }
+}
+@mixin typography-link {
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 @mixin typography-title {
-  font-family: "Gill Sans";
+  color: $color-text;
+  font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: $color-text;
+    text-decoration: none;
+  }
 }
 @mixin typography-title-large {
   @include typography-title;

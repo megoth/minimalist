@@ -1,3 +1,6 @@
+@import "compass/typography/lists/horizontal-list";
+@import "compass/utilities/general/clearfix";
+
 #MasterContent {
   article {
     border-bottom: solid 1px $color-divider;
@@ -8,12 +11,18 @@
     }
   }
   .entry-content {
-    blockquote p {
-      margin: 0;
+    blockquote {
+      border: dotted 1px $color-divider;
+      p {
+        margin: 0;
+      }
     }
     ol,
     ul {
-      margin: 1em 0 1em 1.2em;
+      ol,
+      ul {
+        margin: 1em 0 1em 1.2em;
+      }
     }
     ol {
       li {
@@ -30,19 +39,43 @@
     }
   }
 }
+#MasterFooter {
+}
 #MasterHeader {
-  background-color: $color-light;
-  border-bottom: solid 1px $color-divider;
-  .menu {
-    border-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0.5em;
+  h1,
+  h2,
+  h3 {
+    @include typography-default;
+  }
+  h1 {
+    @include clearfix;
+    span {
+      clear: left;
+      float: left;
+    }
+    .first {
+      font-size: 2.2em;
+    }
+    .second{
+      font-size: 1.25em;
+    }
   }
 }
-#MasterFooter {
-  background-color: $color-light;
-  border-top: solid 1px $color-divider;
-  .menu {
-    border-top: 0;
+#MasterNavigation {
+  ul.nav {
+    @include horizontal-list;
+    li {
+      padding: 0;
+    }
+    a {
+      background-color: $color-link;
+      color: $color-background;
+      display: block;
+      margin-right: 1em;
+      padding: 1em;
+    }
+    .triangle {
+      display: none;
+    }
   }
 }

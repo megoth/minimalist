@@ -1,9 +1,7 @@
 a {
-  color: $color-link;
+  @include typography-link;
 }
 blockquote {
-  background-color: $color-standout;
-  color: $color-standout-dark;
   padding: 1em;
 }
 body {
@@ -16,6 +14,9 @@ h4,
 h5,
 h6 {
   margin: 0;
+  a {
+    @include typography-title;
+  }
 }
 h1 {
   @include typography-title-large;

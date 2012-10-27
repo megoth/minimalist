@@ -12,3 +12,32 @@
   height: $dimension-footer-height;
   margin: 0 auto;
 }
+#MasterHeader {
+  @include grid-row;
+}
+#MasterNavigation {
+  ul.nav {
+    li {
+      float: right;
+    }
+    a {
+      line-height: $dimension-main-nav-height;
+      margin-left: 1em;
+      margin-right: 0;
+      padding: 0;
+      position: relative;
+      text-align: center;
+      width: $dimension-main-nav-width;
+      .triangle {
+        border-bottom: $dimension-main-nav-triangle solid $color-background;
+        border-left: $dimension-main-nav-width / 2 solid transparent;
+        border-right: $dimension-main-nav-width / 2 solid transparent;
+        display: block;
+        height: 0;
+        position: absolute;
+        top: $dimension-main-nav-height - $dimension-main-nav-triangle;
+        width: 0;
+      }
+    }
+  }
+}

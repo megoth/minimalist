@@ -1,0 +1,29 @@
+@import "compass/utilities/general/clearfix";
+@mixin grid-none {
+  > .grid-item {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@mixin grid-offset($span: 1) {
+  margin-left: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+  &:first-child {
+    margin-left: $dimension-grid-width * $span + $dimension-grid-margin * $span;
+  }
+}
+@mixin grid-row {
+  @include clearfix;
+  > .grid-item {
+    float: left;
+    margin-left: $dimension-grid-margin;
+    width: $dimension-grid-width;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+@mixin grid-span($span: 1) {
+  width: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+}

@@ -9,12 +9,13 @@
  * @since Twenty Eleven 1.0
  */
 ?>
-	</div><!-- #MasterContent -->
+        </div><!-- #MasterContent -->
+	</div><!-- .container-inner -->
     <div class="push"></div>
 </div><!-- #MasterContainer -->
 
-<footer id="MasterFooter">
-    <nav class="block-container navigation">
+<footer class="block-container" id="MasterFooter">
+    <nav class="grid-item navigation">
         <?php
             wp_nav_menu( array(
                 'container_class' => 'tabbable tabs-below',

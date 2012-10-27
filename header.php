@@ -46,9 +46,10 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all and (min-width: 40em)" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.medium.css" />
-<link rel="stylesheet" type="text/css" media="all and (min-width: 50em)" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.large.css" />
+<link rel="stylesheet" type="text/css" media="all and (min-width: 60em)" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.large.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -70,30 +71,34 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="MasterContainer" class="hfeed">
-	<header id="MasterHeader" role="banner">
-        <hgroup class="block-container">
-            <?php if( is_single() ) : ?>
-            <h2>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-            </h2>
-            <?php else : ?>
-            <h1>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-            </h1>
-            <h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
-            <?php endif; ?>
-        </hgroup>
+<div id="MasterContainer" class="block-container hfeed">
+    <div class="container-inner">
+        <header class="grid-item grid-row" id="MasterHeader" role="banner">
+            <hgroup class="grid-item">
+                <?php if( is_single() ) : ?>
+                <h2>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo get_bloginfo( 'name', 'display' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+                </h2>
+                <?php else : ?>
+                <h1>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                        <!--<?php bloginfo( 'name' ); ?>-->
+                        <span class="first">I CAN</span>
+                        <span class="second">HAS WEB</span>
+                    </a>
+                </h1>
+                <h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+                <?php endif; ?>
+            </hgroup>
 
-        <nav class="block-container" id="MasterNavigation" role="navigation">
-            <?php
+            <nav class="grid-item" id="MasterNavigation" role="navigation">
+                <?php
                 wp_nav_menu( array(
-                    'items_wrap' => '<ul id="%1$s" class="nav nav-tabs %2$s">%3$s</ul>',
+                    'items_wrap' => '<ul id="%1$s" class="nav %2$s">%3$s</ul>',
+                    'link_after' => '<div class="triangle"></div>',
                     'theme_location' => 'main_navigation'
-                    ) );
-            ?>
-        </nav><!-- #MasterNavigation -->
-	</header><!-- #MasterHeader -->
-
-
-	<div class="block-container" id="MasterContent">
+                ) );
+                ?>
+            </nav><!-- #MasterNavigation -->
+        </header><!-- #MasterHeader -->
+        <div class="grid-item" id="MasterContent">

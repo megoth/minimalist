@@ -1,4 +1,9 @@
 /* line 1, ../sass/patterns/bootstrap.scss */
+.nav {
+  margin-bottom: 0;
+}
+
+/* line 4, ../sass/patterns/bootstrap.scss */
 .nav-tabs > li > a {
   padding-left: 1em;
   padding-right: 1em;
