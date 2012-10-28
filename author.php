@@ -36,7 +36,6 @@ get_header(); ?>
 					rewind_posts();
 				?>
 
-				<?php twentyeleven_content_nav( 'nav-above' ); ?>
 
 				<?php
 				// If a user has filled out their description, show a bio on their entries.
@@ -65,7 +64,6 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php twentyeleven_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 

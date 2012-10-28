@@ -26,7 +26,6 @@ get_header(); ?>
 					?>
 				</header>
 
-				<?php twentyeleven_content_nav( 'nav-above' ); ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -41,7 +40,6 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php twentyeleven_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 
