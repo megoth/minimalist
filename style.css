@@ -4437,12 +4437,32 @@ button.close {
   padding: 0.5em 1em;
 }
 
-/* line 1, sass/patterns/bootstrap.scss */
+/* line 5, sass/patterns/bootstrap.scss */
+form.form-search .input-append .btn,
+form.form-search .input-append .search-query {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: solid 2px #a2c0c1;
+}
+/* line 9, sass/patterns/bootstrap.scss */
+form.form-search .input-append .btn {
+  background: white;
+  border-left: 0;
+}
+/* line 13, sass/patterns/bootstrap.scss */
+form.form-search .input-append .search-query {
+  border-right: 0;
+}
+
+/* line 18, sass/patterns/bootstrap.scss */
 .nav {
   margin-bottom: 0;
 }
 
-/* line 4, sass/patterns/bootstrap.scss */
+/* line 21, sass/patterns/bootstrap.scss */
 .nav-tabs > li > a {
   padding-left: 1em;
   padding-right: 1em;

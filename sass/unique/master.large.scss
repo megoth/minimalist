@@ -1,6 +1,8 @@
 @import "compass/css3/filter";
+@import "compass/css3/opacity";
 #MasterAside {
   @include filter(blur(2px));
+  @include opacity(0.25);
   display: block;
   aside {
     margin: 1em 0;
@@ -10,6 +12,7 @@
   }
   &:hover {
     @include filter(blur(0));
+    @include opacity(1);
   }
 }
 #MasterContainer {
