@@ -26,6 +26,19 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
+                <?php if ( $wp_query->max_num_pages > 1 ) : ?>
+                <nav id="MasterPostNavigation">
+                    <ul class="nav nav-pills">
+                        <li class="nav-previous">
+                            <?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts' ) ); ?>
+                        </li>
+                        <li class="nav-next">
+                            <?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>' ) ); ?>
+                        </li>
+                    </ul>
+                </nav><!-- #nav-above -->
+                <?php endif; ?>
+
 			<?php else : ?>
 
 				<article id="post-0" class="post no-results not-found">

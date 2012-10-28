@@ -1,6 +1,9 @@
 @import "compass/typography/lists/horizontal-list";
 @import "compass/utilities/general/clearfix";
 
+#MasterAside {
+  display: none;
+}
 #MasterContent {
   article {
     border-bottom: solid 1px $color-divider;
@@ -17,6 +20,13 @@
         margin: 0;
       }
     }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 1rem 0;
+    }
     ol,
     ul {
       ol,
@@ -30,6 +40,7 @@
       }
     }
     p {
+      line-height: 1.25em;
       margin: 1em 0;
     }
     ul {
@@ -37,6 +48,10 @@
         list-style-type: square;
       }
     }
+  }
+  .more-link {
+    display: block;
+    text-align: right;
   }
 }
 #MasterFooter {
@@ -46,19 +61,6 @@
   h2,
   h3 {
     @include typography-default;
-  }
-  h1 {
-    @include clearfix;
-    span {
-      clear: left;
-      float: left;
-    }
-    .first {
-      font-size: 2.2em;
-    }
-    .second{
-      font-size: 1.25em;
-    }
   }
 }
 #MasterNavigation {
@@ -77,5 +79,11 @@
     .triangle {
       display: none;
     }
+  }
+}
+#MasterPostNavigation {
+  margin-bottom: 1em;
+  .nav-next {
+    float: right;
   }
 }

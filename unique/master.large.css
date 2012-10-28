@@ -1,13 +1,11 @@
 /*
 Syntax error: Undefined mixin 'grid-row'.
-        on line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss, in `grid-row'
-        from line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss
-
-1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss
+        on line 17 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss, in `grid-row'
+        from line 17 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss
 
 Backtrace:
-/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss:3:in `grid-row'
-/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss:3
+/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss:17:in `grid-row'
+/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss:17
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
@@ -94,4 +92,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss, in `grid-row'\A         from line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss\A \A 1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss"; }
+  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 17 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss, in `grid-row'\A         from line 17 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss"; }

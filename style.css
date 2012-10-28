@@ -2294,7 +2294,7 @@ input[type="submit"].btn.btn-mini {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("img/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -2315,7 +2315,7 @@ input[type="submit"].btn.btn-mini {
 .dropdown-menu > li > a:hover > [class*=" icon-"],
 .dropdown-menu > .active > a > [class^="icon-"],
 .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("img/glyphicons-halflings-white.png");
 }
 
 /* line 1733, sass/lib/bootstrap.scss */
@@ -4581,45 +4581,64 @@ header a {
   text-decoration: none;
 }
 
-/* line 5, sass/unique/master.scss */
+/* line 4, sass/unique/master.scss */
+#MasterAside {
+  display: none;
+}
+
+/* line 8, sass/unique/master.scss */
 #MasterContent article {
   border-bottom: solid 1px #dddddd;
   margin: 1em 0;
   padding: 0 1em 1em;
 }
-/* line 9, sass/unique/master.scss */
+/* line 12, sass/unique/master.scss */
 #MasterContent article:last-child {
   border-bottom: 0;
 }
-/* line 14, sass/unique/master.scss */
+/* line 17, sass/unique/master.scss */
 #MasterContent .entry-content blockquote {
   border: dotted 1px #dddddd;
 }
-/* line 16, sass/unique/master.scss */
+/* line 19, sass/unique/master.scss */
 #MasterContent .entry-content blockquote p {
   margin: 0;
 }
-/* line 23, sass/unique/master.scss */
+/* line 27, sass/unique/master.scss */
+#MasterContent .entry-content h2,
+#MasterContent .entry-content h3,
+#MasterContent .entry-content h4,
+#MasterContent .entry-content h5,
+#MasterContent .entry-content h6 {
+  margin: 1rem 0;
+}
+/* line 33, sass/unique/master.scss */
 #MasterContent .entry-content ol ol,
 #MasterContent .entry-content ol ul,
 #MasterContent .entry-content ul ol,
 #MasterContent .entry-content ul ul {
   margin: 1em 0 1em 1.2em;
 }
-/* line 28, sass/unique/master.scss */
+/* line 38, sass/unique/master.scss */
 #MasterContent .entry-content ol li {
   list-style-type: decimal;
 }
-/* line 32, sass/unique/master.scss */
+/* line 42, sass/unique/master.scss */
 #MasterContent .entry-content p {
+  line-height: 1.25em;
   margin: 1em 0;
 }
-/* line 36, sass/unique/master.scss */
+/* line 47, sass/unique/master.scss */
 #MasterContent .entry-content ul li {
   list-style-type: square;
 }
+/* line 52, sass/unique/master.scss */
+#MasterContent .more-link {
+  display: block;
+  text-align: right;
+}
 
-/* line 47, sass/unique/master.scss */
+/* line 62, sass/unique/master.scss */
 #MasterHeader h1,
 #MasterHeader h2,
 #MasterHeader h3 {
@@ -4634,26 +4653,8 @@ header a {
   color: black;
   text-decoration: none;
 }
-/* line 50, sass/unique/master.scss */
-#MasterHeader h1 {
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 52, sass/unique/master.scss */
-#MasterHeader h1 span {
-  clear: left;
-  float: left;
-}
-/* line 56, sass/unique/master.scss */
-#MasterHeader h1 .first {
-  font-size: 2.2em;
-}
-/* line 59, sass/unique/master.scss */
-#MasterHeader h1 .second {
-  font-size: 1.25em;
-}
 
-/* line 65, sass/unique/master.scss */
+/* line 67, sass/unique/master.scss */
 #MasterNavigation ul.nav {
   margin: 0;
   padding: 0;
@@ -4684,11 +4685,11 @@ header a {
 #MasterNavigation ul.nav li.last {
   padding-right: 0;
 }
-/* line 67, sass/unique/master.scss */
+/* line 69, sass/unique/master.scss */
 #MasterNavigation ul.nav li {
   padding: 0;
 }
-/* line 70, sass/unique/master.scss */
+/* line 72, sass/unique/master.scss */
 #MasterNavigation ul.nav a {
   background-color: #a2c0c1;
   color: white;
@@ -4696,7 +4697,16 @@ header a {
   margin-right: 1em;
   padding: 1em;
 }
-/* line 77, sass/unique/master.scss */
+/* line 79, sass/unique/master.scss */
 #MasterNavigation ul.nav .triangle {
   display: none;
+}
+
+/* line 84, sass/unique/master.scss */
+#MasterPostNavigation {
+  margin-bottom: 1em;
+}
+/* line 86, sass/unique/master.scss */
+#MasterPostNavigation .nav-next {
+  float: right;
 }

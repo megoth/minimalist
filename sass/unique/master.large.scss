@@ -1,3 +1,17 @@
+@import "compass/css3/filter";
+#MasterAside {
+  @include filter(blur(2px));
+  display: block;
+  aside {
+    margin: 1em 0;
+    .nav {
+      margin-top: 0.5em;
+    }
+  }
+  &:hover {
+    @include filter(blur(0));
+  }
+}
 #MasterContainer {
   .container-inner {
     @include grid-row;
@@ -27,6 +41,19 @@
 #MasterHeader {
   @include grid-none;
   position: relative;
+  h1 {
+    @include clearfix;
+    span {
+      clear: left;
+      float: left;
+    }
+    .first {
+      font-size: 2.2em;
+    }
+    .second{
+      font-size: 1.25em;
+    }
+  }
   hgroup {
     padding-top: $dimension-main-nav-height + 1em;
     h1 {
@@ -39,8 +66,13 @@
   }
 }
 #MasterNavigation {
-  ul.nav a {
-    margin-left: 0;
-    margin-right: 1em;
+  ul.nav {
+    li {
+      float: left;
+    }
+    a {
+      margin-left: 0;
+      margin-right: 1em;
+    }
   }
 }

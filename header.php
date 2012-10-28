@@ -72,33 +72,60 @@
 
 <body <?php body_class(); ?>>
 <div id="MasterContainer" class="block-container hfeed">
-    <div class="container-inner">
-        <header class="grid-item grid-row" id="MasterHeader" role="banner">
-            <hgroup class="grid-item">
-                <?php if( is_single() ) : ?>
-                <h2>
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo get_bloginfo( 'name', 'display' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-                </h2>
-                <?php else : ?>
-                <h1>
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                        <!--<?php bloginfo( 'name' ); ?>-->
-                        <span class="first">I CAN</span>
-                        <span class="second">HAS WEB</span>
-                    </a>
-                </h1>
-                <h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
-                <?php endif; ?>
-            </hgroup>
+    <div class="container-inner grid-row">
+        <div class="grid-item">
+            <header class="grid-row" id="MasterHeader" role="banner">
+                <hgroup class="grid-item">
+                    <?php if( is_single() ) : ?>
+                    <h2>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo get_bloginfo( 'name', 'display' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+                    </h2>
+                    <h4 id="site-description"><?php bloginfo( 'description' ); ?></h4>
+                    <?php else : ?>
+                    <h1>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                            <!--<?php bloginfo( 'name' ); ?>-->
+                            <span class="first">I CAN</span>
+                            <span class="second">HAS WEB</span>
+                        </a>
+                    </h1>
+                    <h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+                    <?php endif; ?>
+                </hgroup>
 
-            <nav class="grid-item" id="MasterNavigation" role="navigation">
-                <?php
-                wp_nav_menu( array(
-                    'items_wrap' => '<ul id="%1$s" class="nav %2$s">%3$s</ul>',
-                    'link_after' => '<div class="triangle"></div>',
-                    'theme_location' => 'main_navigation'
-                ) );
-                ?>
-            </nav><!-- #MasterNavigation -->
-        </header><!-- #MasterHeader -->
+                <nav class="grid-item" id="MasterNavigation" role="navigation">
+                    <?php
+                    wp_nav_menu( array(
+                        'items_wrap' => '<ul id="%1$s" class="nav %2$s">%3$s</ul>',
+                        'link_after' => '<div class="triangle"></div>',
+                        'theme_location' => 'main_navigation'
+                    ) );
+                    ?>
+                </nav><!-- #MasterNavigation -->
+            </header><!-- #MasterHeader -->
+            <div id="MasterAside">
+                <aside id="MasterSearch" class="widget">
+                    <?php get_search_form(); ?>
+                </aside>
+                <aside id="MasterArchives" class="widget">
+                    <h3 class="widget-title"><?php _e( 'Archives' ); ?></h3>
+                    <ul class="nav nav-pills nav-stacked">
+                        <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
+                    </ul>
+                </aside>
+                <aside id="MasterCategories" class="widget">
+                    <ul class="nav nav-pills nav-stacked">
+                        <?php wp_list_categories(); ?>
+                    </ul>
+                </aside>
+                <aside id="MasterLinks" class="widget">
+                    <ul class="nav nav-pills nav-stacked">
+                        <?php wp_list_bookmarks( array (
+                        'title_before'     => '<h3>',
+                        'title_after'      => '</h3>'
+                    ) ); ?>
+                    </ul>
+                </aside>
+            </div>
+        </div>
         <div class="grid-item" id="MasterContent">
