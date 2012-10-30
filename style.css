@@ -4658,10 +4658,13 @@ header a {
   text-align: right;
 }
 
-/* line 62, sass/unique/master.scss */
+/* line 65, sass/unique/master.scss */
 #MasterHeader h1,
 #MasterHeader h2,
-#MasterHeader h3 {
+#MasterHeader h3,
+#MasterHeader h4,
+#MasterHeader h5,
+#MasterHeader h6 {
   color: black;
   font-family: "Georgia";
   text-decoration: none;
@@ -4669,12 +4672,36 @@ header a {
 /* line 5, sass/mixins/typography.scss */
 #MasterHeader h1:hover,
 #MasterHeader h2:hover,
-#MasterHeader h3:hover {
+#MasterHeader h3:hover,
+#MasterHeader h4:hover,
+#MasterHeader h5:hover,
+#MasterHeader h6:hover {
+  color: black;
+  text-decoration: none;
+}
+/* line 67, sass/unique/master.scss */
+#MasterHeader h1 a,
+#MasterHeader h2 a,
+#MasterHeader h3 a,
+#MasterHeader h4 a,
+#MasterHeader h5 a,
+#MasterHeader h6 a {
+  color: black;
+  font-family: "Georgia";
+  text-decoration: none;
+}
+/* line 5, sass/mixins/typography.scss */
+#MasterHeader h1 a:hover,
+#MasterHeader h2 a:hover,
+#MasterHeader h3 a:hover,
+#MasterHeader h4 a:hover,
+#MasterHeader h5 a:hover,
+#MasterHeader h6 a:hover {
   color: black;
   text-decoration: none;
 }
 
-/* line 67, sass/unique/master.scss */
+/* line 73, sass/unique/master.scss */
 #MasterNavigation ul.nav {
   margin: 0;
   padding: 0;
@@ -4705,11 +4732,11 @@ header a {
 #MasterNavigation ul.nav li.last {
   padding-right: 0;
 }
-/* line 69, sass/unique/master.scss */
+/* line 75, sass/unique/master.scss */
 #MasterNavigation ul.nav li {
   padding: 0;
 }
-/* line 72, sass/unique/master.scss */
+/* line 78, sass/unique/master.scss */
 #MasterNavigation ul.nav a {
   background-color: #a2c0c1;
   color: white;
@@ -4717,16 +4744,16 @@ header a {
   margin-right: 1em;
   padding: 1em;
 }
-/* line 79, sass/unique/master.scss */
+/* line 85, sass/unique/master.scss */
 #MasterNavigation ul.nav .triangle {
   display: none;
 }
 
-/* line 84, sass/unique/master.scss */
+/* line 90, sass/unique/master.scss */
 #MasterPostNavigation {
   margin-bottom: 1em;
 }
-/* line 86, sass/unique/master.scss */
+/* line 92, sass/unique/master.scss */
 #MasterPostNavigation .nav-next {
   float: right;
 }

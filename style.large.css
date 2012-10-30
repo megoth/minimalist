@@ -41,8 +41,8 @@
 /* line 18, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item {
   float: left;
-  margin-left: 1em;
-  width: 16em;
+  margin-left: 2%;
+  width: 30.667%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item:first-child {
@@ -50,7 +50,7 @@
 }
 /* line 21, sass/unique/master.large.scss */
 #MasterContainer .container-inner #MasterContent {
-  width: 33em;
+  width: 63.333%;
 }
 /* line 26, sass/unique/master.large.scss */
 #MasterContainer .push {
@@ -75,8 +75,8 @@
 /* line 18, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item {
   float: left;
-  margin-left: 1em;
-  width: 16em;
+  margin-left: 2%;
+  width: 30.667%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item:first-child {
@@ -84,12 +84,12 @@
 }
 /* line 39, sass/unique/master.large.scss */
 #MasterFooter .grid-item {
-  margin-left: 16em;
-  width: 33em;
+  margin-left: 30.667%;
+  width: 63.333%;
 }
 /* line 12, sass/mixins/grid.medium.scss */
 #MasterFooter .grid-item:first-child {
-  margin-left: 17em;
+  margin-left: 32.667%;
 }
 
 /* line 44, sass/unique/master.large.scss */
@@ -115,11 +115,11 @@
 }
 /* line 53, sass/unique/master.large.scss */
 #MasterHeader h1 .first {
-  font-size: 2.2em;
+  font-size: 1.80em;
 }
 /* line 56, sass/unique/master.large.scss */
 #MasterHeader h1 .second {
-  font-size: 1.25em;
+  font-size: 1.10em;
 }
 /* line 60, sass/unique/master.large.scss */
 #MasterHeader hgroup {

@@ -28,4 +28,9 @@
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?>
 		</div><!-- .entry-content -->
 		<?php endif; ?>
+        <?php if (is_single() ) : ?>
+        <div class="entry-comments">
+            <?php disqus_embed('icanhasweb'); ?>
+        </div>
+        <?php endif; ?>
 	</article><!-- #post-<?php the_ID(); ?> -->

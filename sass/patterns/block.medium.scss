@@ -1,5 +1,6 @@
 .block-container {
   margin: 0 auto;
-  max-width: $dimension-container-width;
+  max-width: $dimension-container-width * 1em;
   padding: 0;
+  width: 100%;
 }
