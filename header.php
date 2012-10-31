@@ -81,12 +81,12 @@
                 <hgroup class="grid-item">
                     <?php if( is_single() ) : ?>
                     <h2>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo get_bloginfo( 'name', 'display' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+                        <a href="http://icanhasweb.net/" title="<?php echo get_bloginfo( 'name', 'display' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
                     </h2>
                     <h4 id="site-description"><?php bloginfo( 'description' ); ?></h4>
                     <?php else : ?>
                     <h1>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                        <a href="http://icanhasweb.net/" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                             <!--<?php bloginfo( 'name' ); ?>-->
                             <span class="first">I CAN</span>
                             <span class="second">HAS WEB</span>
