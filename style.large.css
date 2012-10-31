@@ -1,6 +1,6 @@
 /* line 1, sass/patterns/block.large.scss */
 .block-container {
-  max-width: 50em;
+  max-width: 51em;
 }
 
 /* line 3, sass/unique/master.large.scss */
@@ -41,8 +41,8 @@
 /* line 18, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item {
   float: left;
-  margin-left: 2%;
-  width: 30.667%;
+  margin-left: 1.961%;
+  width: 30.77%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item:first-child {
@@ -50,7 +50,7 @@
 }
 /* line 21, sass/unique/master.large.scss */
 #MasterContainer .container-inner #MasterContent {
-  width: 63.333%;
+  width: 63.501%;
 }
 /* line 26, sass/unique/master.large.scss */
 #MasterContainer .push {
@@ -75,8 +75,8 @@
 /* line 18, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item {
   float: left;
-  margin-left: 2%;
-  width: 30.667%;
+  margin-left: 1.961%;
+  width: 30.77%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item:first-child {
@@ -84,12 +84,12 @@
 }
 /* line 39, sass/unique/master.large.scss */
 #MasterFooter .grid-item {
-  margin-left: 30.667%;
-  width: 63.333%;
+  margin-left: 30.77%;
+  width: 63.501%;
 }
 /* line 12, sass/mixins/grid.medium.scss */
 #MasterFooter .grid-item:first-child {
-  margin-left: 32.667%;
+  margin-left: 32.731%;
 }
 
 /* line 44, sass/unique/master.large.scss */
@@ -143,4 +143,38 @@
 #MasterNavigation ul.nav a {
   margin-left: 0;
   margin-right: 1em;
+}
+
+/* line 2, sass/unique/rss.large.scss */
+#RssBody .rss-header {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+  opacity: 0.25;
+}
+/* line 6, sass/unique/rss.large.scss */
+#RssBody:hover .rss-header {
+  -webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  filter: blur(0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 12, sass/unique/rss.large.scss */
+#RssList > li {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+  opacity: 0.25;
+}
+/* line 15, sass/unique/rss.large.scss */
+#RssList > li:hover {
+  -webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  filter: blur(0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }

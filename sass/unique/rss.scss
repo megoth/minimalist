@@ -1,0 +1,12 @@
+#RssList {
+  > li {
+    margin: 1em 0;
+    padding: 0.5em;
+    hgroup {
+      border-bottom: solid 1px $color-divider;
+    }
+    .footnote {
+      @include typography-info;
+    }
+  }
+}

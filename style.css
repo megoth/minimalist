@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimalistic
 Text Domain: minimalistic
 */
-/* line 17, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -4437,6 +4437,43 @@ button.close {
   padding: 0.5em 1em;
 }
 
+/* line 5, sass/patterns/block.scss */
+.block-content blockquote {
+  border: dotted 1px #dddddd;
+}
+/* line 7, sass/patterns/block.scss */
+.block-content blockquote p {
+  margin: 0;
+}
+/* line 15, sass/patterns/block.scss */
+.block-content h2,
+.block-content h3,
+.block-content h4,
+.block-content h5,
+.block-content h6 {
+  margin: 1rem 0;
+}
+/* line 21, sass/patterns/block.scss */
+.block-content ol ol,
+.block-content ol ul,
+.block-content ul ol,
+.block-content ul ul {
+  margin: 1em 0 1em 1.2em;
+}
+/* line 26, sass/patterns/block.scss */
+.block-content ol li {
+  list-style-type: decimal;
+}
+/* line 30, sass/patterns/block.scss */
+.block-content p {
+  line-height: 1.25em;
+  margin: 1em 0;
+}
+/* line 35, sass/patterns/block.scss */
+.block-content ul li {
+  list-style-type: square;
+}
+
 /* line 5, sass/patterns/bootstrap.scss */
 form.form-search .input-append .btn,
 form.form-search .input-append .search-query {
@@ -4474,7 +4511,7 @@ a {
   color: #a2c0c1;
   text-decoration: none;
 }
-/* line 13, sass/mixins/typography.scss */
+/* line 16, sass/mixins/typography.scss */
 a:hover {
   text-decoration: underline;
 }
@@ -4518,7 +4555,7 @@ h6 a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 23, sass/mixins/typography.scss */
+/* line 26, sass/mixins/typography.scss */
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -4538,7 +4575,7 @@ h1 {
   text-decoration: none;
   font-size: 3em;
 }
-/* line 23, sass/mixins/typography.scss */
+/* line 26, sass/mixins/typography.scss */
 h1:hover {
   color: black;
   text-decoration: none;
@@ -4553,7 +4590,7 @@ h2 {
   text-decoration: none;
   font-size: 2em;
 }
-/* line 23, sass/mixins/typography.scss */
+/* line 26, sass/mixins/typography.scss */
 h2:hover {
   color: black;
   text-decoration: none;
@@ -4568,7 +4605,7 @@ h3 {
   text-decoration: none;
   font-size: 1.5em;
 }
-/* line 23, sass/mixins/typography.scss */
+/* line 26, sass/mixins/typography.scss */
 h3:hover {
   color: black;
   text-decoration: none;
@@ -4584,7 +4621,7 @@ h6 {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 23, sass/mixins/typography.scss */
+/* line 26, sass/mixins/typography.scss */
 h4:hover,
 h5:hover,
 h6:hover {
@@ -4616,49 +4653,13 @@ header a {
 #MasterContent article:last-child {
   border-bottom: 0;
 }
-/* line 17, sass/unique/master.scss */
-#MasterContent .entry-content blockquote {
-  border: dotted 1px #dddddd;
-}
-/* line 19, sass/unique/master.scss */
-#MasterContent .entry-content blockquote p {
-  margin: 0;
-}
-/* line 27, sass/unique/master.scss */
-#MasterContent .entry-content h2,
-#MasterContent .entry-content h3,
-#MasterContent .entry-content h4,
-#MasterContent .entry-content h5,
-#MasterContent .entry-content h6 {
-  margin: 1rem 0;
-}
-/* line 33, sass/unique/master.scss */
-#MasterContent .entry-content ol ol,
-#MasterContent .entry-content ol ul,
-#MasterContent .entry-content ul ol,
-#MasterContent .entry-content ul ul {
-  margin: 1em 0 1em 1.2em;
-}
-/* line 38, sass/unique/master.scss */
-#MasterContent .entry-content ol li {
-  list-style-type: decimal;
-}
-/* line 42, sass/unique/master.scss */
-#MasterContent .entry-content p {
-  line-height: 1.25em;
-  margin: 1em 0;
-}
-/* line 47, sass/unique/master.scss */
-#MasterContent .entry-content ul li {
-  list-style-type: square;
-}
-/* line 52, sass/unique/master.scss */
+/* line 16, sass/unique/master.scss */
 #MasterContent .more-link {
   display: block;
   text-align: right;
 }
 
-/* line 65, sass/unique/master.scss */
+/* line 29, sass/unique/master.scss */
 #MasterHeader h1,
 #MasterHeader h2,
 #MasterHeader h3,
@@ -4679,7 +4680,7 @@ header a {
   color: black;
   text-decoration: none;
 }
-/* line 67, sass/unique/master.scss */
+/* line 31, sass/unique/master.scss */
 #MasterHeader h1 a,
 #MasterHeader h2 a,
 #MasterHeader h3 a,
@@ -4701,7 +4702,7 @@ header a {
   text-decoration: none;
 }
 
-/* line 73, sass/unique/master.scss */
+/* line 37, sass/unique/master.scss */
 #MasterNavigation ul.nav {
   margin: 0;
   padding: 0;
@@ -4709,7 +4710,7 @@ header a {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 60, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #MasterNavigation ul.nav li {
   list-style-image: none;
   list-style-type: none;
@@ -4720,23 +4721,23 @@ header a {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #MasterNavigation ul.nav li:first-child, #MasterNavigation ul.nav li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #MasterNavigation ul.nav li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #MasterNavigation ul.nav li.last {
   padding-right: 0;
 }
-/* line 75, sass/unique/master.scss */
+/* line 39, sass/unique/master.scss */
 #MasterNavigation ul.nav li {
   padding: 0;
 }
-/* line 78, sass/unique/master.scss */
+/* line 42, sass/unique/master.scss */
 #MasterNavigation ul.nav a {
   background-color: #a2c0c1;
   color: white;
@@ -4744,16 +4745,30 @@ header a {
   margin-right: 1em;
   padding: 1em;
 }
-/* line 85, sass/unique/master.scss */
+/* line 49, sass/unique/master.scss */
 #MasterNavigation ul.nav .triangle {
   display: none;
 }
 
-/* line 90, sass/unique/master.scss */
+/* line 54, sass/unique/master.scss */
 #MasterPostNavigation {
   margin-bottom: 1em;
 }
-/* line 92, sass/unique/master.scss */
+/* line 56, sass/unique/master.scss */
 #MasterPostNavigation .nav-next {
   float: right;
+}
+
+/* line 2, sass/unique/rss.scss */
+#RssList > li {
+  margin: 1em 0;
+  padding: 0.5em;
+}
+/* line 5, sass/unique/rss.scss */
+#RssList > li hgroup {
+  border-bottom: solid 1px #dddddd;
+}
+/* line 8, sass/unique/rss.scss */
+#RssList > li .footnote {
+  color: #999999;
 }

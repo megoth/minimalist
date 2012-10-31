@@ -1,4 +1,80 @@
-/* line 1, ../sass/patterns/block.scss */
-.block-container {
-  padding: 0.5em 1em;
-}
+/*
+Syntax error: Undefined variable: "$color-divider".
+        on line 6 of /var/www/rss/minimalist/sass/patterns/block.scss
+
+1: /var/www/rss/minimalist/sass/patterns/block.scss
+
+Backtrace:
+/var/www/rss/minimalist/sass/patterns/block.scss:6
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/variable.rb:49:in `_perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/list.rb:70:in `block in _perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/list.rb:70:in `map'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/list.rb:70:in `_perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/root_node.rb:20:in `render'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/engine.rb:300:in `_render'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/engine.rb:247:in `render'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `load'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/bin/compass:19:in `<main>'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$color-divider\".\A         on line 6 of /var/www/rss/minimalist/sass/patterns/block.scss\A \A 1: /var/www/rss/minimalist/sass/patterns/block.scss"; }

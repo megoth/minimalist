@@ -7,6 +7,9 @@
     text-decoration: none;
   }
 }
+@mixin typography-info {
+  color: $color-text-info;
+}
 @mixin typography-link {
   color: $color-link;
   text-decoration: none;

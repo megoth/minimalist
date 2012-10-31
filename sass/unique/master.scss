@@ -13,42 +13,6 @@
       border-bottom: 0;
     }
   }
-  .entry-content {
-    blockquote {
-      border: dotted 1px $color-divider;
-      p {
-        margin: 0;
-      }
-    }
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 1rem 0;
-    }
-    ol,
-    ul {
-      ol,
-      ul {
-        margin: 1em 0 1em 1.2em;
-      }
-    }
-    ol {
-      li {
-        list-style-type: decimal;
-      }
-    }
-    p {
-      line-height: 1.25em;
-      margin: 1em 0;
-    }
-    ul {
-      li {
-        list-style-type: square;
-      }
-    }
-  }
   .more-link {
     display: block;
     text-align: right;

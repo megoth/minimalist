@@ -1,0 +1,20 @@
+#RssBody {
+  .rss-header {
+    @include filter(blur(2px));
+    @include opacity(0.25);
+  }
+  &:hover .rss-header {
+    @include filter(blur(0));
+    @include opacity(1);
+  }
+}
+#RssList {
+  > li {
+    @include filter(blur(2px));
+    @include opacity(0.25);
+    &:hover {
+      @include filter(blur(0));
+      @include opacity(1);
+    }
+  }
+}
