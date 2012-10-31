@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$color-divider".
-        on line 6 of /var/www/rss/minimalist/sass/patterns/block.scss
+        on line 6 of /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.scss
 
-1: /var/www/rss/minimalist/sass/patterns/block.scss
+1: /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.scss
 
 Backtrace:
-/var/www/rss/minimalist/sass/patterns/block.scss:6
+/var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.scss:6
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/variable.rb:49:in `_perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/list.rb:70:in `block in _perform'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$color-divider\".\A         on line 6 of /var/www/rss/minimalist/sass/patterns/block.scss\A \A 1: /var/www/rss/minimalist/sass/patterns/block.scss"; }
+  content: "Syntax error: Undefined variable: \"$color-divider\".\A         on line 6 of /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.scss\A \A 1: /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.scss"; }

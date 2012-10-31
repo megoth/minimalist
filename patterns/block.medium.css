@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$dimension-container-width".
-        on line 3 of /var/www/rss/minimalist/sass/patterns/block.medium.scss
+        on line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss
 
-1: /var/www/rss/minimalist/sass/patterns/block.medium.scss
+1: /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss
 
 Backtrace:
-/var/www/rss/minimalist/sass/patterns/block.medium.scss:3
+/var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss:3
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/variable.rb:49:in `_perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/operation.rb:74:in `_perform'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dimension-container-width\".\A         on line 3 of /var/www/rss/minimalist/sass/patterns/block.medium.scss\A \A 1: /var/www/rss/minimalist/sass/patterns/block.medium.scss"; }
+  content: "Syntax error: Undefined variable: \"$dimension-container-width\".\A         on line 3 of /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss\A \A 1: /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss"; }
