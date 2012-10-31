@@ -2,7 +2,8 @@
 
 register_nav_menus( array (
     'main_navigation' => 'Main navigation',
-    'footer_navigation' => 'Footer navigation'
+    'footer_navigation' => 'Footer navigation',
+    'aside_navigation' => 'Aside navigation'
 ) );
 
 function disqus_embed($disqus_shortname) {

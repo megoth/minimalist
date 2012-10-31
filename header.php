@@ -110,25 +110,14 @@
                 <aside id="MasterSearch" class="widget">
                     <?php get_search_form(); ?>
                 </aside>
-                <aside id="MasterArchives" class="widget">
-                    <h3 class="widget-title"><?php _e( 'Archives' ); ?></h3>
-                    <ul class="nav nav-pills nav-stacked">
-                        <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
-                    </ul>
-                </aside>
-                <aside id="MasterCategories" class="widget">
-                    <ul class="nav nav-pills nav-stacked">
-                        <?php wp_list_categories(); ?>
-                    </ul>
-                </aside>
-                <aside id="MasterLinks" class="widget">
-                    <ul class="nav nav-pills nav-stacked">
-                        <?php wp_list_bookmarks( array (
-                        'title_before'     => '<h3>',
-                        'title_after'      => '</h3>'
-                    ) ); ?>
-                    </ul>
-                </aside>
+                <nav id="MasterAsideNavigation" class="widget">
+                    <?php
+                    wp_nav_menu( array(
+                        'items_wrap' => '<ul id="%1$s" class="nav nav-pills nav-stacked %2$s">%3$s</ul>',
+                        'theme_location' => 'aside_navigation'
+                    ) );
+                    ?>
+                </nav>
             </div>
         </div>
         <div class="grid-item" id="MasterContent">
