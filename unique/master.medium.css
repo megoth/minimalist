@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$dimension-footer-height".
-        on line 4 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss
+        on line 4 of /var/www/icanhasweb-splash/minimalist/sass/unique/master.medium.scss
 
-1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss
+1: /var/www/icanhasweb-splash/minimalist/sass/unique/master.medium.scss
 
 Backtrace:
-/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss:4
+/var/www/icanhasweb-splash/minimalist/sass/unique/master.medium.scss:4
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/variable.rb:49:in `_perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/operation.rb:74:in `_perform'
@@ -90,4 +90,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dimension-footer-height\".\A         on line 4 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss\A \A 1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss"; }
+  content: "Syntax error: Undefined variable: \"$dimension-footer-height\".\A         on line 4 of /var/www/icanhasweb-splash/minimalist/sass/unique/master.medium.scss\A \A 1: /var/www/icanhasweb-splash/minimalist/sass/unique/master.medium.scss"; }

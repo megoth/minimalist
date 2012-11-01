@@ -1,7 +1,7 @@
 /**
  * Color scheme from http://colorschemedesigner.com/#3E11Tw0w0w0w0
  */
-/* line 1, /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.medium.scss */
+/* line 1, sass/patterns/block.medium.scss */
 .block-container {
   margin: 0 auto;
   max-width: 43em;
@@ -9,69 +9,70 @@
   width: 100%;
 }
 
-/* line 2, /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/tags.medium.scss */
+/* line 2, sass/patterns/tags.medium.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 1, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 1, sass/unique/master.medium.scss */
 #MasterContainer {
   height: auto !important;
   height: 100%;
   margin: 0 auto -5em;
   min-height: 100%;
 }
-/* line 6, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 6, sass/unique/master.medium.scss */
 #MasterContainer .push {
   display: block;
   height: 5em;
 }
 
-/* line 11, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 11, sass/unique/master.medium.scss */
 #MasterFooter {
   height: 5em;
   margin: 0 auto;
 }
 
-/* line 15, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 15, sass/unique/master.medium.scss */
 #MasterHeader {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 18, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 18, sass/mixins/grid.medium.scss */
 #MasterHeader > .grid-item {
   float: left;
   margin-left: 2.326%;
   width: 47.296%;
 }
-/* line 22, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 22, sass/mixins/grid.medium.scss */
 #MasterHeader > .grid-item:first-child {
   margin-left: 0;
 }
 
-/* line 20, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 20, sass/unique/master.medium.scss */
 #MasterNavigation ul.nav li {
   float: right;
 }
-/* line 23, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 23, sass/unique/master.medium.scss */
 #MasterNavigation ul.nav a {
   line-height: 4em;
   margin-left: 1em;
   margin-right: 0;
   padding: 0;
+  padding-bottom: 1em;
   position: relative;
   text-align: center;
   width: 4em;
 }
-/* line 31, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.medium.scss */
+/* line 32, sass/unique/master.medium.scss */
 #MasterNavigation ul.nav a .triangle {
-  border-bottom: 0.5em solid white;
+  border-bottom: 1em solid white;
   border-left: 2em solid transparent;
   border-right: 2em solid transparent;
   display: block;
   height: 0;
   position: absolute;
-  top: 3.5em;
+  top: 4em;
   width: 0;
 }

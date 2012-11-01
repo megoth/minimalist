@@ -22,7 +22,7 @@
   }
 }
 #MasterContent {
-  padding-top: $dimension-main-nav-height + 1em;
+  padding-top: $dimension-main-nav-height;
   article:first-child {
     margin-top: 0;
   }
@@ -49,7 +49,7 @@
     }
   }
   hgroup {
-    padding-top: $dimension-main-nav-height + 1em;
+    padding-top: $dimension-main-nav-height;
     h1 {
       margin-bottom: 0.5rem;
     }

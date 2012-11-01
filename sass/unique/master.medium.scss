@@ -21,10 +21,11 @@
       float: right;
     }
     a {
-      line-height: $dimension-main-nav-height;
+      line-height: $dimension-main-nav-height - $dimension-main-nav-triangle;
       margin-left: 1em;
       margin-right: 0;
       padding: 0;
+      padding-bottom: $dimension-main-nav-triangle;
       position: relative;
       text-align: center;
       width: $dimension-main-nav-width;
