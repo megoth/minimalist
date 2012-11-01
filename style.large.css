@@ -1,138 +1,138 @@
-/* line 1, /var/www/wordpress/wp-content/themes/minimalist/sass/patterns/block.large.scss */
+/* line 1, sass/patterns/block.large.scss */
 .block-container {
   max-width: 51em;
 }
 
-/* line 3, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 3, sass/unique/master.large.scss */
 #MasterAside {
   display: block;
 }
-/* line 5, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 5, sass/unique/master.large.scss */
 #MasterAside aside {
   margin: 1em 0;
 }
-/* line 7, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 7, sass/unique/master.large.scss */
 #MasterAside aside .nav {
   margin-top: 0.5em;
 }
 
-/* line 12, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 12, sass/unique/master.large.scss */
 #MasterContainer {
   margin: 0 auto -5em;
 }
-/* line 13, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 13, sass/unique/master.large.scss */
 #MasterContainer .container-inner {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 18, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 18, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item {
   float: left;
   margin-left: 1.961%;
   width: 30.77%;
 }
-/* line 22, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 22, sass/mixins/grid.medium.scss */
 #MasterContainer .container-inner > .grid-item:first-child {
   margin-left: 0;
 }
-/* line 15, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 15, sass/unique/master.large.scss */
 #MasterContainer .container-inner #MasterContent {
   width: 63.501%;
 }
-/* line 20, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 20, sass/unique/master.large.scss */
 #MasterContainer .push {
   height: 5em;
 }
 
-/* line 24, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 24, sass/unique/master.large.scss */
 #MasterContent {
   padding-top: 5em;
 }
-/* line 26, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 26, sass/unique/master.large.scss */
 #MasterContent article:first-child {
   margin-top: 0;
 }
 
-/* line 30, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 30, sass/unique/master.large.scss */
 #MasterFooter {
   height: 5em;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 18, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 18, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item {
   float: left;
   margin-left: 1.961%;
   width: 30.77%;
 }
-/* line 22, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 22, sass/mixins/grid.medium.scss */
 #MasterFooter > .grid-item:first-child {
   margin-left: 0;
 }
-/* line 33, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 33, sass/unique/master.large.scss */
 #MasterFooter .grid-item {
   margin-left: 30.77%;
   width: 63.501%;
 }
-/* line 12, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 12, sass/mixins/grid.medium.scss */
 #MasterFooter .grid-item:first-child {
   margin-left: 32.731%;
 }
 
-/* line 38, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 38, sass/unique/master.large.scss */
 #MasterHeader {
   position: relative;
 }
-/* line 3, /var/www/wordpress/wp-content/themes/minimalist/sass/mixins/grid.medium.scss */
+/* line 3, sass/mixins/grid.medium.scss */
 #MasterHeader > .grid-item {
   float: none;
   width: auto;
   margin-left: 0;
   width: auto;
 }
-/* line 41, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 41, sass/unique/master.large.scss */
 #MasterHeader h1 {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 43, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 43, sass/unique/master.large.scss */
 #MasterHeader h1 span {
   clear: left;
   float: left;
 }
-/* line 47, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 47, sass/unique/master.large.scss */
 #MasterHeader h1 .first {
-  font-size: 1.80em;
+  font-size: 1.70em;
 }
-/* line 50, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
-#MasterHeader h1 .second {
-  font-size: 1.10em;
-}
-/* line 54, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 51, sass/unique/master.large.scss */
 #MasterHeader hgroup {
   padding-top: 5em;
 }
-/* line 56, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 53, sass/unique/master.large.scss */
 #MasterHeader hgroup h1 {
   margin-bottom: 0.5rem;
 }
-/* line 60, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 57, sass/unique/master.large.scss */
 #MasterHeader nav {
   position: absolute;
   top: 0;
 }
+/* line 61, sass/unique/master.large.scss */
+#MasterHeader .site-description {
+  font-size: 1.25em;
+}
 
-/* line 67, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 67, sass/unique/master.large.scss */
 #MasterNavigation ul.nav li {
   float: left;
 }
-/* line 70, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss */
+/* line 70, sass/unique/master.large.scss */
 #MasterNavigation ul.nav a {
   margin-left: 0;
   margin-right: 1em;
 }
 
-/* line 2, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/rss.large.scss */
+/* line 2, sass/unique/rss.large.scss */
 #RssBody .rss-header {
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -140,7 +140,7 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
   opacity: 0.25;
 }
-/* line 6, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/rss.large.scss */
+/* line 6, sass/unique/rss.large.scss */
 #RssBody:hover .rss-header {
   -webkit-filter: blur(0);
   -moz-filter: blur(0);
@@ -149,7 +149,7 @@
   opacity: 1;
 }
 
-/* line 12, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/rss.large.scss */
+/* line 12, sass/unique/rss.large.scss */
 #RssList > li {
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -157,7 +157,7 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
   opacity: 0.25;
 }
-/* line 15, /var/www/wordpress/wp-content/themes/minimalist/sass/unique/rss.large.scss */
+/* line 15, sass/unique/rss.large.scss */
 #RssList > li:hover {
   -webkit-filter: blur(0);
   -moz-filter: blur(0);

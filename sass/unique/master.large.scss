@@ -45,10 +45,7 @@
       float: left;
     }
     .first {
-      font-size: 1.80em;
-    }
-    .second{
-      font-size: 1.10em;
+      font-size: 1.70em;
     }
   }
   hgroup {
@@ -60,6 +57,9 @@
   nav {
     position: absolute;
     top: 0;
+  }
+  .site-description {
+    font-size: 1.25em;
   }
 }
 #MasterNavigation {

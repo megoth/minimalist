@@ -92,7 +92,7 @@
                             <span class="second">HAS WEB</span>
                         </a>
                     </h1>
-                    <h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+                    <h3 class="site-description"><?php bloginfo( 'description' ); ?></h3>
                     <?php endif; ?>
                 </hgroup>
 
