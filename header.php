@@ -85,7 +85,7 @@
                     </h2>
                     <h4 id="site-description"><?php bloginfo( 'description' ); ?></h4>
                     <?php else : ?>
-                    <h1>
+                    <h1 class="wp">
                         <a href="http://icanhasweb.net/" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                             <?php bloginfo( 'name' ); ?>
                         </a>

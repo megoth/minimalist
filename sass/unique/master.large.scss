@@ -40,7 +40,16 @@
   position: relative;
   h1 {
     @include clearfix;
-    font-size: 2.3em;
+    span {
+      clear: left;
+      float: left;
+    }
+    .first {
+      font-size: 1.70em;
+    }
+    &.wp {
+      font-size: 2.3em;
+    }
   }
   hgroup {
     padding-top: $dimension-main-nav-height;
