@@ -131,37 +131,3 @@
   margin-left: 0;
   margin-right: 1em;
 }
-
-/* line 2, sass/unique/rss.large.scss */
-#RssBody .rss-header {
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  filter: blur(2px);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
-  opacity: 0.25;
-}
-/* line 6, sass/unique/rss.large.scss */
-#RssBody:hover .rss-header {
-  -webkit-filter: blur(0);
-  -moz-filter: blur(0);
-  filter: blur(0);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-
-/* line 12, sass/unique/rss.large.scss */
-#RssList > li {
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  filter: blur(2px);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
-  opacity: 0.25;
-}
-/* line 15, sass/unique/rss.large.scss */
-#RssList > li:hover {
-  -webkit-filter: blur(0);
-  -moz-filter: blur(0);
-  filter: blur(0);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
