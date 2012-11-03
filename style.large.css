@@ -94,39 +94,31 @@
 #MasterHeader h1 {
   overflow: hidden;
   *zoom: 1;
+  font-size: 2.5em;
 }
-/* line 43, sass/unique/master.large.scss */
-#MasterHeader h1 span {
-  clear: left;
-  float: left;
-}
-/* line 47, sass/unique/master.large.scss */
-#MasterHeader h1 .first {
-  font-size: 1.70em;
-}
-/* line 51, sass/unique/master.large.scss */
+/* line 45, sass/unique/master.large.scss */
 #MasterHeader hgroup {
   padding-top: 5em;
 }
-/* line 53, sass/unique/master.large.scss */
+/* line 47, sass/unique/master.large.scss */
 #MasterHeader hgroup h1 {
   margin-bottom: 0.5rem;
 }
-/* line 57, sass/unique/master.large.scss */
+/* line 51, sass/unique/master.large.scss */
 #MasterHeader nav {
   position: absolute;
   top: 0;
 }
-/* line 61, sass/unique/master.large.scss */
+/* line 55, sass/unique/master.large.scss */
 #MasterHeader .site-description {
   font-size: 1.25em;
 }
 
-/* line 67, sass/unique/master.large.scss */
+/* line 61, sass/unique/master.large.scss */
 #MasterNavigation ul.nav li {
   float: left;
 }
-/* line 70, sass/unique/master.large.scss */
+/* line 64, sass/unique/master.large.scss */
 #MasterNavigation ul.nav a {
   margin-left: 0;
   margin-right: 1em;
