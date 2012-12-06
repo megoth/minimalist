@@ -4481,16 +4481,25 @@ button.close {
   padding: 0 1em 1em;
 }
 /* line 45, sass/patterns/block.scss */
+.block-posts article .meta {
+  color: #999999;
+}
+/* line 47, sass/patterns/block.scss */
+.block-posts article .meta a {
+  color: #999999;
+  text-decoration: underline;
+}
+/* line 52, sass/patterns/block.scss */
 .block-posts article:last-child {
   border-bottom: 0;
 }
-/* line 49, sass/patterns/block.scss */
+/* line 56, sass/patterns/block.scss */
 .block-posts .more-link {
   display: block;
   text-align: right;
 }
 
-/* line 55, sass/patterns/block.scss */
+/* line 62, sass/patterns/block.scss */
 .block-single-aside > * {
   margin-bottom: 1em;
 }
@@ -4607,7 +4616,7 @@ blockquote {
 /* line 7, sass/patterns/tags.scss */
 body {
   color: black;
-  font-family: "Georgia";
+  font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */
@@ -4730,7 +4739,7 @@ hgroup h4,
 hgroup h5,
 hgroup h6 {
   color: black;
-  font-family: "Georgia";
+  font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */
@@ -4751,7 +4760,7 @@ hgroup h4 a,
 hgroup h5 a,
 hgroup h6 a {
   color: black;
-  font-family: "Georgia";
+  font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */

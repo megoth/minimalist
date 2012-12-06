@@ -1,6 +1,6 @@
 @mixin typography-default {
   color: $color-text;
-  font-family: "Georgia";
+  font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
   &:hover {
     color: $color-text;
