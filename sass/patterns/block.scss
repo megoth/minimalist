@@ -37,3 +37,22 @@
     }
   }
 }
+.block-posts {
+  article {
+    border-bottom: solid 1px $color-divider;
+    margin: 1em 0;
+    padding: 0 1em 1em;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  .more-link {
+    display: block;
+    text-align: right;
+  }
+}
+.block-single-aside {
+  > * {
+    margin-bottom: 1em;
+  }
+}

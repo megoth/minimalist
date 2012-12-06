@@ -1,0 +1,18 @@
+#IndexAside {
+  @include grid-none;
+  > aside {
+    margin-bottom: 1em;
+  }
+}
+#IndexHeader {
+  @include grid-row;
+  > .grid-item.title {
+    @include grid-span(2);
+  }
+}
+#IndexMain {
+  @include grid-row;
+  > .grid-item[role='main'] {
+    @include grid-span(2);
+  }
+}

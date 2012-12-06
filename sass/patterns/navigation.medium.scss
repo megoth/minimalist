@@ -1,21 +1,4 @@
-#MasterContainer {
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto $dimension-footer-height * -1;
-  min-height: 100%;
-  .push {
-    display: block;
-    height: $dimension-footer-height;
-  }
-}
-#MasterFooter {
-  height: $dimension-footer-height;
-  margin: 0 auto;
-}
-#MasterHeader {
-  @include grid-row;
-}
-#MasterNavigation {
+.navigation-main {
   ul.nav {
     li {
       float: right;

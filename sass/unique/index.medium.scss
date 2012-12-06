@@ -1,0 +1,9 @@
+#IndexAside {
+  @include grid-row;
+}
+#IndexHeader {
+  @include grid-row;
+  hgroup {
+    line-height: $dimension-main-nav-height / 2;
+  }
+}

@@ -1,3 +1,25 @@
 .block-container {
   max-width: $dimension-container-width * 1em;
 }
+.block-posts {
+  article:first-child {
+    margin-top: 0;
+  }
+}
+.block-single-aside {
+  @include grid-none;
+  .navigation-main {
+    width: $dimension-grid-width;
+  }
+}
+.block-single-container {
+  hgroup {
+    margin-bottom: 1em;
+  }
+  .container-inner {
+    @include grid-row;
+    > div[role='main'] {
+      @include grid-span(2);
+    }
+  }
+}

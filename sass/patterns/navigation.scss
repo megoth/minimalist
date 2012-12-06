@@ -1,0 +1,26 @@
+@import "compass/typography/lists/horizontal-list";
+
+.navigation-main {
+  ul.nav {
+    @include horizontal-list;
+    li {
+      padding: 0;
+    }
+    a {
+      background-color: $color-link;
+      color: $color-background;
+      display: block;
+      margin-right: 1em;
+      padding: 1em;
+    }
+    .triangle {
+      display: none;
+    }
+  }
+}
+.navigation-posts {
+  margin-bottom: 1em;
+  .nav-next {
+    float: right;
+  }
+}

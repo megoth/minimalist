@@ -30,13 +30,13 @@
 }
 @mixin typography-title-large {
   @include typography-title;
-  font-size: 3em;
+  font-size: 2.25em;
 }
 @mixin typography-title-medium {
   @include typography-title;
-  font-size: 2em;
+  font-size: 1.75em;
 }
 @mixin typography-title-small {
   @include typography-title;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }

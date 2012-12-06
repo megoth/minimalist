@@ -9,12 +9,8 @@
  * @since Twenty Eleven 1.0
  */
 ?>
-        </div><!-- #MasterContent -->
-	</div><!-- .container-inner -->
-    <div class="push"></div>
-</div><!-- #MasterContainer -->
 
-<footer class="block-container" id="MasterFooter">
+<footer class="block-container block-footer-sticky" id="MasterFooter">
     <nav class="grid-item navigation">
         <?php
             wp_nav_menu( array(

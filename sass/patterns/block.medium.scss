@@ -4,3 +4,36 @@
   padding: 0;
   width: 100%;
 }
+.block-container-sticky {
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto $dimension-footer-height * -1;
+   min-height: 100%;
+   .push {
+     display: block;
+     height: $dimension-footer-height;
+   }
+ }
+.block-footer-sticky {
+  height: $dimension-footer-height;
+  margin: 0 auto;
+}
+.block-single-aside {
+  @include grid-row;
+  .search {
+    margin-left: 0;
+  }
+}
+.block-single-container {
+  position: relative;
+  hgroup {
+    height: $dimension-main-nav-height;
+  }
+  .block-single-aside {
+    .navigation-main {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

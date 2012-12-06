@@ -1,12 +1,14 @@
 /*
-Syntax error: Undefined variable: "$dimension-footer-height".
-        on line 29 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss
+Syntax error: Undefined mixin 'grid-row'.
+        on line 2 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss, in `grid-row'
+        from line 2 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss
+
+1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss
 
 Backtrace:
-/var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss:29
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/variable.rb:49:in `_perform'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/script/node.rb:40:in `perform'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
+/var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss:2:in `grid-row'
+/var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss:2
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -82,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dimension-footer-height\".\A         on line 29 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/master.large.scss"; }
+  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 2 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss, in `grid-row'\A         from line 2 of /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss\A \A 1: /var/www/wordpress/wp-content/themes/minimalist/sass/unique/index.medium.scss"; }

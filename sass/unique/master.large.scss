@@ -1,78 +1,59 @@
 @import "compass/css3/filter";
 @import "compass/css3/opacity";
-#MasterAside {
-  display: block;
-  aside {
-    margin: 1em 0;
-    .nav {
-      margin-top: 0.5em;
-    }
-  }
-}
-#MasterContainer {
-  .container-inner {
-    @include grid-row;
-    #MasterContent {
-      @include grid-span(2);
-    }
-  }
-  margin: 0 auto $dimension-footer-height * -1;
-  .push {
-    height: $dimension-footer-height;
-  }
-}
-#MasterContent {
-  padding-top: $dimension-main-nav-height;
-  article:first-child {
-    margin-top: 0;
-  }
-}
+
+//#MasterAside {
+//  display: block;
+//  aside {
+//    margin: 1em 0;
+//    .nav {
+//      margin-top: 0.5em;
+//    }
+//  }
+//}
+//#MasterContainer {
+//  margin: 0 auto $dimension-footer-height * -1;
+//  #MasterContent {
+//    @include grid-span(2);
+//  }
+//  .container-inner {
+//    @include grid-row;
+//    > .grid-item:first-child {
+//      @include grid-span(2);
+//    }
+//  }
+//  .push {
+//    height: $dimension-footer-height;
+//  }
+//}
 #MasterFooter {
   height: $dimension-footer-height;
   @include grid-row;
   .grid-item {
-    @include grid-offset;
     @include grid-span(2);
   }
 }
-#MasterHeader {
-  @include grid-none;
-  position: relative;
-  h1 {
-    @include clearfix;
-    span {
-      clear: left;
-      float: left;
-    }
-    .first {
-      font-size: 1.70em;
-    }
-    &.wp {
-      font-size: 2.3em;
-    }
-  }
-  hgroup {
-    padding-top: $dimension-main-nav-height;
-    h1 {
-      margin-bottom: 0.5rem;
-    }
-  }
-  nav {
-    position: absolute;
-    top: 0;
-  }
-  .site-description {
-    font-size: 1.25em;
-  }
-}
-#MasterNavigation {
-  ul.nav {
-    li {
-      float: left;
-    }
-    a {
-      margin-left: 0;
-      margin-right: 1em;
-    }
-  }
-}
+//#MasterHeader {
+//  height: $dimension-main-nav-height;
+//  h1 {
+//    @include clearfix;
+//    span {
+//      clear: left;
+//      float: left;
+//    }
+//    .first {
+//      font-size: 1.70em;
+//    }
+//    &.wp {
+//      font-size: 2.2em;
+//    }
+//  }
+//  hgroup {
+//    padding-top: $dimension-main-nav-height;
+//    h1 {
+//      margin-bottom: 0.5rem;
+//    }
+//  }
+//  .site-description {
+//    font-size: 1.25em;
+//  }
+//}

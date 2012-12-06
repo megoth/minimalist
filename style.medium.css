@@ -9,53 +9,66 @@
   width: 100%;
 }
 
-/* line 2, sass/patterns/tags.medium.scss */
-body,
-html {
-  height: 100%;
-}
-
-/* line 1, sass/unique/master.medium.scss */
-#MasterContainer {
+/* line 7, sass/patterns/block.medium.scss */
+.block-container-sticky {
   height: auto !important;
   height: 100%;
   margin: 0 auto -5em;
   min-height: 100%;
 }
-/* line 6, sass/unique/master.medium.scss */
-#MasterContainer .push {
+/* line 12, sass/patterns/block.medium.scss */
+.block-container-sticky .push {
   display: block;
   height: 5em;
 }
 
-/* line 11, sass/unique/master.medium.scss */
-#MasterFooter {
+/* line 17, sass/patterns/block.medium.scss */
+.block-footer-sticky {
   height: 5em;
   margin: 0 auto;
 }
 
-/* line 15, sass/unique/master.medium.scss */
-#MasterHeader {
+/* line 21, sass/patterns/block.medium.scss */
+.block-single-aside {
   overflow: hidden;
   *zoom: 1;
 }
 /* line 18, sass/mixins/grid.medium.scss */
-#MasterHeader > .grid-item {
+.block-single-aside > .grid-item {
   float: left;
   margin-left: 2.326%;
-  width: 47.296%;
+  width: 48.837%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-#MasterHeader > .grid-item:first-child {
+.block-single-aside > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 23, sass/patterns/block.medium.scss */
+.block-single-aside .search {
   margin-left: 0;
 }
 
-/* line 20, sass/unique/master.medium.scss */
-#MasterNavigation ul.nav li {
+/* line 27, sass/patterns/block.medium.scss */
+.block-single-container {
+  position: relative;
+}
+/* line 29, sass/patterns/block.medium.scss */
+.block-single-container hgroup {
+  height: 5em;
+}
+/* line 33, sass/patterns/block.medium.scss */
+.block-single-container .block-single-aside .navigation-main {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 3, sass/patterns/navigation.medium.scss */
+.navigation-main ul.nav li {
   float: right;
 }
-/* line 23, sass/unique/master.medium.scss */
-#MasterNavigation ul.nav a {
+/* line 6, sass/patterns/navigation.medium.scss */
+.navigation-main ul.nav a {
   line-height: 4em;
   margin-left: 1em;
   margin-right: 0;
@@ -65,8 +78,8 @@ html {
   text-align: center;
   width: 4em;
 }
-/* line 32, sass/unique/master.medium.scss */
-#MasterNavigation ul.nav a .triangle {
+/* line 15, sass/patterns/navigation.medium.scss */
+.navigation-main ul.nav a .triangle {
   border-bottom: 1em solid white;
   border-left: 2em solid transparent;
   border-right: 2em solid transparent;
@@ -75,4 +88,46 @@ html {
   position: absolute;
   top: 4em;
   width: 0;
+}
+
+/* line 2, sass/patterns/tags.medium.scss */
+body,
+html {
+  height: 100%;
+}
+
+/* line 1, sass/unique/index.medium.scss */
+#IndexAside {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+#IndexAside > .grid-item {
+  float: left;
+  margin-left: 2.326%;
+  width: 48.837%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+#IndexAside > .grid-item:first-child {
+  margin-left: 0;
+}
+
+/* line 4, sass/unique/index.medium.scss */
+#IndexHeader {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+#IndexHeader > .grid-item {
+  float: left;
+  margin-left: 2.326%;
+  width: 48.837%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+#IndexHeader > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 6, sass/unique/index.medium.scss */
+#IndexHeader hgroup {
+  line-height: 2.5em;
 }

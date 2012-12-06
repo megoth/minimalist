@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimalistic
 Text Domain: minimalistic
 */
-/* line 17, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -4474,7 +4474,33 @@ button.close {
   list-style-type: square;
 }
 
-/* line 5, sass/patterns/bootstrap.scss */
+/* line 41, sass/patterns/block.scss */
+.block-posts article {
+  border-bottom: solid 1px #dddddd;
+  margin: 1em 0;
+  padding: 0 1em 1em;
+}
+/* line 45, sass/patterns/block.scss */
+.block-posts article:last-child {
+  border-bottom: 0;
+}
+/* line 49, sass/patterns/block.scss */
+.block-posts .more-link {
+  display: block;
+  text-align: right;
+}
+
+/* line 55, sass/patterns/block.scss */
+.block-single-aside > * {
+  margin-bottom: 1em;
+}
+
+/* line 2, sass/patterns/bootstrap.scss */
+form {
+  margin: 0;
+}
+
+/* line 8, sass/patterns/bootstrap.scss */
 form.form-search .input-append .btn,
 form.form-search .input-append .search-query {
   -webkit-border-radius: 0;
@@ -4484,26 +4510,83 @@ form.form-search .input-append .search-query {
   border-radius: 0;
   border: solid 2px #a2c0c1;
 }
-/* line 9, sass/patterns/bootstrap.scss */
+/* line 12, sass/patterns/bootstrap.scss */
 form.form-search .input-append .btn {
   background: white;
   border-left: 0;
 }
-/* line 13, sass/patterns/bootstrap.scss */
+/* line 16, sass/patterns/bootstrap.scss */
 form.form-search .input-append .search-query {
   border-right: 0;
 }
 
-/* line 18, sass/patterns/bootstrap.scss */
+/* line 21, sass/patterns/bootstrap.scss */
 .nav {
   margin-bottom: 0;
 }
 
-/* line 21, sass/patterns/bootstrap.scss */
+/* line 24, sass/patterns/bootstrap.scss */
 .nav-tabs > li > a {
   padding-left: 1em;
   padding-right: 1em;
   margin-right: 0;
+}
+
+/* line 4, sass/patterns/navigation.scss */
+.navigation-main ul.nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li:first-child, .navigation-main ul.nav li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li.last {
+  padding-right: 0;
+}
+/* line 6, sass/patterns/navigation.scss */
+.navigation-main ul.nav li {
+  padding: 0;
+}
+/* line 9, sass/patterns/navigation.scss */
+.navigation-main ul.nav a {
+  background-color: #a2c0c1;
+  color: white;
+  display: block;
+  margin-right: 1em;
+  padding: 1em;
+}
+/* line 16, sass/patterns/navigation.scss */
+.navigation-main ul.nav .triangle {
+  display: none;
+}
+
+/* line 21, sass/patterns/navigation.scss */
+.navigation-posts {
+  margin-bottom: 1em;
+}
+/* line 23, sass/patterns/navigation.scss */
+.navigation-posts .nav-next {
+  float: right;
 }
 
 /* line 1, sass/patterns/tags.scss */
@@ -4540,9 +4623,10 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1.25em;
   margin: 0;
 }
-/* line 17, sass/patterns/tags.scss */
+/* line 18, sass/patterns/tags.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -4566,14 +4650,14 @@ h6 a:hover {
   text-decoration: none;
 }
 
-/* line 21, sass/patterns/tags.scss */
+/* line 22, sass/patterns/tags.scss */
 h1 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2.25em;
 }
 /* line 26, sass/mixins/typography.scss */
 h1:hover {
@@ -4581,14 +4665,14 @@ h1:hover {
   text-decoration: none;
 }
 
-/* line 24, sass/patterns/tags.scss */
+/* line 25, sass/patterns/tags.scss */
 h2 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.75em;
 }
 /* line 26, sass/mixins/typography.scss */
 h2:hover {
@@ -4596,14 +4680,14 @@ h2:hover {
   text-decoration: none;
 }
 
-/* line 27, sass/patterns/tags.scss */
+/* line 28, sass/patterns/tags.scss */
 h3 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 /* line 26, sass/mixins/typography.scss */
 h3:hover {
@@ -4611,7 +4695,7 @@ h3:hover {
   text-decoration: none;
 }
 
-/* line 32, sass/patterns/tags.scss */
+/* line 33, sass/patterns/tags.scss */
 h4,
 h5,
 h6 {
@@ -4629,134 +4713,61 @@ h6:hover {
   text-decoration: none;
 }
 
-/* line 35, sass/patterns/tags.scss */
+/* line 36, sass/patterns/tags.scss */
 header {
   margin-bottom: 0.5em;
 }
-/* line 37, sass/patterns/tags.scss */
+/* line 38, sass/patterns/tags.scss */
 header a {
   text-decoration: none;
 }
 
-/* line 4, sass/unique/master.scss */
-#MasterAside {
-  display: none;
-}
-
-/* line 8, sass/unique/master.scss */
-#MasterContent article {
-  border-bottom: solid 1px #dddddd;
-  margin: 1em 0;
-  padding: 0 1em 1em;
-}
-/* line 12, sass/unique/master.scss */
-#MasterContent article:last-child {
-  border-bottom: 0;
-}
-/* line 16, sass/unique/master.scss */
-#MasterContent .more-link {
-  display: block;
-  text-align: right;
-}
-
-/* line 29, sass/unique/master.scss */
-#MasterHeader h1,
-#MasterHeader h2,
-#MasterHeader h3,
-#MasterHeader h4,
-#MasterHeader h5,
-#MasterHeader h6 {
+/* line 48, sass/patterns/tags.scss */
+hgroup h1,
+hgroup h2,
+hgroup h3,
+hgroup h4,
+hgroup h5,
+hgroup h6 {
   color: black;
   font-family: "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */
-#MasterHeader h1:hover,
-#MasterHeader h2:hover,
-#MasterHeader h3:hover,
-#MasterHeader h4:hover,
-#MasterHeader h5:hover,
-#MasterHeader h6:hover {
+hgroup h1:hover,
+hgroup h2:hover,
+hgroup h3:hover,
+hgroup h4:hover,
+hgroup h5:hover,
+hgroup h6:hover {
   color: black;
   text-decoration: none;
 }
-/* line 31, sass/unique/master.scss */
-#MasterHeader h1 a,
-#MasterHeader h2 a,
-#MasterHeader h3 a,
-#MasterHeader h4 a,
-#MasterHeader h5 a,
-#MasterHeader h6 a {
+/* line 50, sass/patterns/tags.scss */
+hgroup h1 a,
+hgroup h2 a,
+hgroup h3 a,
+hgroup h4 a,
+hgroup h5 a,
+hgroup h6 a {
   color: black;
   font-family: "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */
-#MasterHeader h1 a:hover,
-#MasterHeader h2 a:hover,
-#MasterHeader h3 a:hover,
-#MasterHeader h4 a:hover,
-#MasterHeader h5 a:hover,
-#MasterHeader h6 a:hover {
+hgroup h1 a:hover,
+hgroup h2 a:hover,
+hgroup h3 a:hover,
+hgroup h4 a:hover,
+hgroup h5 a:hover,
+hgroup h6 a:hover {
   color: black;
   text-decoration: none;
 }
 
-/* line 37, sass/unique/master.scss */
-#MasterNavigation ul.nav {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 60, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-#MasterNavigation ul.nav li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-/* line 48, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-#MasterNavigation ul.nav li:first-child, #MasterNavigation ul.nav li.first {
-  padding-left: 0;
-}
-/* line 49, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-#MasterNavigation ul.nav li:last-child {
-  padding-right: 0;
-}
-/* line 50, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-#MasterNavigation ul.nav li.last {
-  padding-right: 0;
-}
-/* line 39, sass/unique/master.scss */
-#MasterNavigation ul.nav li {
-  padding: 0;
-}
-/* line 42, sass/unique/master.scss */
-#MasterNavigation ul.nav a {
-  background-color: #a2c0c1;
-  color: white;
-  display: block;
-  margin-right: 1em;
-  padding: 1em;
-}
-/* line 49, sass/unique/master.scss */
-#MasterNavigation ul.nav .triangle {
-  display: none;
-}
-
-/* line 54, sass/unique/master.scss */
-#MasterPostNavigation {
-  margin-bottom: 1em;
-}
-/* line 56, sass/unique/master.scss */
-#MasterPostNavigation .nav-next {
-  float: right;
+/* line 2, sass/unique/index.scss */
+#IndexMain {
+  padding-top: 1em;
 }
 
 /* line 2, sass/unique/rss.scss */
