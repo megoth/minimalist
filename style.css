@@ -4806,17 +4806,22 @@ hgroup h6 a:hover {
   padding-top: 1em;
 }
 
-/* line 2, sass/unique/splash.scss */
+/* line 1, sass/unique/splash.scss */
+#SplashHeader {
+  display: none;
+}
+
+/* line 5, sass/unique/splash.scss */
 #SplashList > li {
   margin: 1em 0;
   padding: 0.5em;
 }
-/* line 5, sass/unique/splash.scss */
+/* line 8, sass/unique/splash.scss */
 #SplashList > li hgroup {
   border-bottom: solid 1px #dddddd;
   margin-bottom: 0.5em;
 }
-/* line 9, sass/unique/splash.scss */
+/* line 12, sass/unique/splash.scss */
 #SplashList > li .footnote {
   color: #999999;
 }

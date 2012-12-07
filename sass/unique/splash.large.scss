@@ -7,6 +7,7 @@
   }
 }
 #SplashHeader {
+  display: block;
   padding-top: $dimension-main-nav-height + 1em;
   position:relative;
   width: auto;
@@ -26,9 +27,13 @@
       }
     }
   }
+  .navigation-main {
+    position: absolute;
+    top: 0;
+  }
 }
-#SplashNavigation {
-  width: 100%;
+#SplashHeaderMobile {
+  display: none;
 }
 #SplashSidebar {
   .grid-row {
