@@ -1,0 +1,31 @@
+#SplashContainer {
+  .container-inner {
+    @include grid-row;
+    > div[role='main'] {
+      @include grid-span(2);
+    }
+  }
+}
+#SplashHeader {
+  padding-top: $dimension-main-nav-height + 1em;
+  position:relative;
+  width: auto;
+  h1 {
+    @include clearfix;
+    span {
+      clear: left;
+      float: left;
+    }
+    .first {
+      font-size: 1.70em;
+    }
+  }
+}
+#SplashNavigation {
+  width: 100%;
+}
+#SplashSidebar {
+  .grid-row {
+    @include grid-none;
+  }
+}

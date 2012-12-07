@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimalistic
 Text Domain: minimalistic
 */
-/* line 17, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -4432,20 +4432,20 @@ button.close {
 /**
  * Color scheme from http://colorschemedesigner.com/#3E11Tw0w0w0w0
  */
-/* line 1, sass/patterns/block.scss */
+/* line 4, sass/patterns/block.scss */
 .block-container {
   padding: 0.5em 1em;
 }
 
-/* line 5, sass/patterns/block.scss */
+/* line 8, sass/patterns/block.scss */
 .block-content blockquote {
   border: dotted 1px #dddddd;
 }
-/* line 7, sass/patterns/block.scss */
+/* line 10, sass/patterns/block.scss */
 .block-content blockquote p {
   margin: 0;
 }
-/* line 15, sass/patterns/block.scss */
+/* line 18, sass/patterns/block.scss */
 .block-content h2,
 .block-content h3,
 .block-content h4,
@@ -4453,53 +4453,80 @@ button.close {
 .block-content h6 {
   margin: 1rem 0;
 }
-/* line 21, sass/patterns/block.scss */
+/* line 24, sass/patterns/block.scss */
 .block-content ol ol,
 .block-content ol ul,
 .block-content ul ol,
 .block-content ul ul {
   margin: 1em 0 1em 1.2em;
 }
-/* line 26, sass/patterns/block.scss */
+/* line 29, sass/patterns/block.scss */
 .block-content ol li {
   list-style-type: decimal;
 }
-/* line 30, sass/patterns/block.scss */
+/* line 33, sass/patterns/block.scss */
 .block-content p {
   line-height: 1.25em;
   margin: 1em 0;
 }
-/* line 35, sass/patterns/block.scss */
+/* line 38, sass/patterns/block.scss */
 .block-content ul li {
   list-style-type: square;
 }
 
-/* line 41, sass/patterns/block.scss */
+/* line 43, sass/patterns/block.scss */
+.block-photo {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  background-color: #eeeeee;
+  border: solid 1px #dddddd;
+  margin: 0 1em 1em;
+  padding: 0.5em;
+}
+/* line 50, sass/patterns/block.scss */
+.block-photo img {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+/* line 56, sass/patterns/block.scss */
 .block-posts article {
   border-bottom: solid 1px #dddddd;
   margin: 1em 0;
   padding: 0 1em 1em;
 }
-/* line 45, sass/patterns/block.scss */
+/* line 60, sass/patterns/block.scss */
 .block-posts article .meta {
   color: #999999;
 }
-/* line 47, sass/patterns/block.scss */
+/* line 62, sass/patterns/block.scss */
 .block-posts article .meta a {
   color: #999999;
   text-decoration: underline;
 }
-/* line 52, sass/patterns/block.scss */
+/* line 67, sass/patterns/block.scss */
 .block-posts article:last-child {
   border-bottom: 0;
 }
-/* line 56, sass/patterns/block.scss */
+/* line 71, sass/patterns/block.scss */
 .block-posts .more-link {
   display: block;
   text-align: right;
 }
 
-/* line 62, sass/patterns/block.scss */
+/* line 77, sass/patterns/block.scss */
 .block-single-aside > * {
   margin-bottom: 1em;
 }
@@ -4549,7 +4576,7 @@ form.form-search .input-append .search-query {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 60, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li {
   list-style-image: none;
   list-style-type: none;
@@ -4560,15 +4587,15 @@ form.form-search .input-append .search-query {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li:first-child, .navigation-main ul.nav li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li.last {
   padding-right: 0;
 }
@@ -4779,16 +4806,17 @@ hgroup h6 a:hover {
   padding-top: 1em;
 }
 
-/* line 2, sass/unique/rss.scss */
-#RssList > li {
+/* line 2, sass/unique/splash.scss */
+#SplashList > li {
   margin: 1em 0;
   padding: 0.5em;
 }
-/* line 5, sass/unique/rss.scss */
-#RssList > li hgroup {
+/* line 5, sass/unique/splash.scss */
+#SplashList > li hgroup {
   border-bottom: solid 1px #dddddd;
+  margin-bottom: 0.5em;
 }
-/* line 8, sass/unique/rss.scss */
-#RssList > li .footnote {
+/* line 9, sass/unique/splash.scss */
+#SplashList > li .footnote {
   color: #999999;
 }

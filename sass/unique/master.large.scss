@@ -1,59 +1,10 @@
-@import "compass/css3/filter";
-@import "compass/css3/opacity";
-
-//#MasterAside {
-//  display: block;
-//  aside {
-//    margin: 1em 0;
-//    .nav {
-//      margin-top: 0.5em;
-//    }
-//  }
-//}
-//#MasterContainer {
-//  margin: 0 auto $dimension-footer-height * -1;
-//  #MasterContent {
-//    @include grid-span(2);
-//  }
-//  .container-inner {
-//    @include grid-row;
-//    > .grid-item:first-child {
-//      @include grid-span(2);
-//    }
-//  }
-//  .push {
-//    height: $dimension-footer-height;
-//  }
-//}
 #MasterFooter {
   height: $dimension-footer-height;
   @include grid-row;
+  a {
+    font-size: 0.9em;
+  }
   .grid-item {
     @include grid-span(2);
   }
 }
-//#MasterHeader {
-//  height: $dimension-main-nav-height;
-//  h1 {
-//    @include clearfix;
-//    span {
-//      clear: left;
-//      float: left;
-//    }
-//    .first {
-//      font-size: 1.70em;
-//    }
-//    &.wp {
-//      font-size: 2.2em;
-//    }
-//  }
-//  hgroup {
-//    padding-top: $dimension-main-nav-height;
-//    h1 {
-//      margin-bottom: 0.5rem;
-//    }
-//  }
-//  .site-description {
-//    font-size: 1.25em;
-//  }
-//}

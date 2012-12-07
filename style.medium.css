@@ -96,6 +96,11 @@ html {
   height: 100%;
 }
 
+/* line 5, sass/patterns/tags.medium.scss */
+body {
+  margin: 0 1em;
+}
+
 /* line 1, sass/unique/index.medium.scss */
 #IndexAside {
   overflow: hidden;
@@ -130,4 +135,44 @@ html {
 /* line 6, sass/unique/index.medium.scss */
 #IndexHeader hgroup {
   line-height: 2.5em;
+}
+
+/* line 2, sass/unique/splash.medium.scss */
+#SplashContainer .container-inner {
+  position: relative;
+}
+
+/* line 6, sass/unique/splash.medium.scss */
+#SplashContent {
+  padding-top: 5em;
+}
+
+/* line 9, sass/unique/splash.medium.scss */
+#SplashHeader {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 14, sass/unique/splash.medium.scss */
+#SplashNavigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 20, sass/unique/splash.medium.scss */
+#SplashSidebar .grid-row {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+#SplashSidebar .grid-row > .grid-item {
+  float: left;
+  margin-left: 2.326%;
+  width: 48.837%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+#SplashSidebar .grid-row > .grid-item:first-child {
+  margin-left: 0;
 }

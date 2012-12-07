@@ -1,0 +1,23 @@
+#SplashContainer {
+  .container-inner {
+    position: relative;
+  }
+}
+#SplashContent {
+  padding-top: $dimension-main-nav-height;
+}
+#SplashHeader {
+  position:absolute;
+  top: 0;
+  width: 100%;
+}
+#SplashNavigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#SplashSidebar {
+  .grid-row {
+    @include grid-row;
+  }
+}

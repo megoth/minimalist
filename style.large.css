@@ -106,7 +106,7 @@
   width: 66.013%;
 }
 
-/* line 28, sass/unique/master.large.scss */
+/* line 1, sass/unique/master.large.scss */
 #MasterFooter {
   height: 5em;
   overflow: hidden;
@@ -122,7 +122,65 @@
 #MasterFooter > .grid-item:first-child {
   margin-left: 0;
 }
-/* line 31, sass/unique/master.large.scss */
+/* line 4, sass/unique/master.large.scss */
+#MasterFooter a {
+  font-size: 0.9em;
+}
+/* line 7, sass/unique/master.large.scss */
 #MasterFooter .grid-item {
   width: 66.013%;
+}
+
+/* line 2, sass/unique/splash.large.scss */
+#SplashContainer .container-inner {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+#SplashContainer .container-inner > .grid-item {
+  float: left;
+  margin-left: 1.961%;
+  width: 32.026%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+#SplashContainer .container-inner > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 4, sass/unique/splash.large.scss */
+#SplashContainer .container-inner > div[role='main'] {
+  width: 66.013%;
+}
+
+/* line 9, sass/unique/splash.large.scss */
+#SplashHeader {
+  padding-top: 6em;
+  position: relative;
+  width: auto;
+}
+/* line 13, sass/unique/splash.large.scss */
+#SplashHeader h1 {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 15, sass/unique/splash.large.scss */
+#SplashHeader h1 span {
+  clear: left;
+  float: left;
+}
+/* line 19, sass/unique/splash.large.scss */
+#SplashHeader h1 .first {
+  font-size: 1.70em;
+}
+
+/* line 24, sass/unique/splash.large.scss */
+#SplashNavigation {
+  width: 100%;
+}
+
+/* line 3, sass/mixins/grid.medium.scss */
+#SplashSidebar .grid-row > .grid-item {
+  float: none;
+  width: auto;
+  margin-left: 0;
+  width: auto;
 }
