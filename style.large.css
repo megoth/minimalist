@@ -152,40 +152,45 @@
 }
 
 /* line 9, sass/unique/splash.large.scss */
+#SplashContent {
+  padding-top: 5em;
+}
+
+/* line 12, sass/unique/splash.large.scss */
 #SplashHeader {
   display: block;
   padding-top: 6em;
   position: relative;
   width: auto;
 }
-/* line 14, sass/unique/splash.large.scss */
+/* line 17, sass/unique/splash.large.scss */
 #SplashHeader h1 {
   line-height: normal;
 }
-/* line 16, sass/unique/splash.large.scss */
+/* line 19, sass/unique/splash.large.scss */
 #SplashHeader h1 a {
   display: block;
 }
-/* line 18, sass/unique/splash.large.scss */
+/* line 21, sass/unique/splash.large.scss */
 #SplashHeader h1 a span {
   display: block;
   line-height: 0.8em;
 }
-/* line 22, sass/unique/splash.large.scss */
+/* line 25, sass/unique/splash.large.scss */
 #SplashHeader h1 a .first {
   font-size: 2.50em;
 }
-/* line 25, sass/unique/splash.large.scss */
+/* line 28, sass/unique/splash.large.scss */
 #SplashHeader h1 a .second {
   font-size: 1.45em;
 }
-/* line 30, sass/unique/splash.large.scss */
+/* line 33, sass/unique/splash.large.scss */
 #SplashHeader .navigation-main {
   position: absolute;
   top: 0;
 }
 
-/* line 35, sass/unique/splash.large.scss */
+/* line 38, sass/unique/splash.large.scss */
 #SplashHeaderMobile {
   display: none;
 }

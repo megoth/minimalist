@@ -6,6 +6,9 @@
     }
   }
 }
+#SplashContent {
+  padding-top: $dimension-main-nav-height;
+}
 #SplashHeader {
   display: block;
   padding-top: $dimension-main-nav-height + 1em;
