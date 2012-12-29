@@ -1,12 +1,16 @@
+@import "compass/typography/lists/horizontal-list";
+
 .navigation-main {
   ul.nav {
+    @include horizontal-list;
     li {
       float: right;
+      padding: 0;
     }
     a {
       line-height: $dimension-main-nav-height - $dimension-main-nav-triangle;
       margin-left: 1em;
-      margin-right: 0;
+      margin-top: 0;
       padding: 0;
       padding-bottom: $dimension-main-nav-triangle;
       position: relative;

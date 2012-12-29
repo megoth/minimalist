@@ -63,22 +63,54 @@
   right: 0;
 }
 
-/* line 3, sass/patterns/navigation.medium.scss */
+/* line 4, sass/patterns/navigation.medium.scss */
+.navigation-main ul.nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li {
-  float: right;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li:first-child, .navigation-main ul.nav li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.navigation-main ul.nav li.last {
+  padding-right: 0;
 }
 /* line 6, sass/patterns/navigation.medium.scss */
+.navigation-main ul.nav li {
+  float: right;
+  padding: 0;
+}
+/* line 10, sass/patterns/navigation.medium.scss */
 .navigation-main ul.nav a {
   line-height: 4em;
   margin-left: 1em;
-  margin-right: 0;
+  margin-top: 0;
   padding: 0;
   padding-bottom: 1em;
   position: relative;
   text-align: center;
   width: 4em;
 }
-/* line 15, sass/patterns/navigation.medium.scss */
+/* line 19, sass/patterns/navigation.medium.scss */
 .navigation-main ul.nav a .triangle {
   border-bottom: 1em solid white;
   border-left: 2em solid transparent;
