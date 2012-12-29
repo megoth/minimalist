@@ -57,6 +57,9 @@
     border-bottom: solid 1px $color-divider;
     margin: 1em 0;
     padding: 0 1em 1em;
+    iframe {
+      width: 100%;
+    }
     .meta {
       @include typography-info;
       a {
