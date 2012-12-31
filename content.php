@@ -19,9 +19,7 @@
         </h2>
         <?php endif; ?>
         <h4 class="meta">
-            <span class="entry-published-date"><?php the_date('Y-m-d', 'Published ', '; '); ?></span>
-            Categorized in
-            <span class="entry-category"><?php the_category(', '); ?></span>
+            <span class="entry-published-date"><?php the_date('Y-m-d', 'Published ', '; '); ?></span><?php if ( get_the_modified_time() > get_the_time() ) : ?><span class="entry-modified-date"><?php the_modified_date('Y-m-d', 'Modified ', '; '); ?></span><?php endif; ?><?php if ( has_category() ): ?>Categorized in <span class="entry-category"><?php the_category(', '); ?></span><?php else: ?>Not categorized<?php endif; ?>
         </h4>
     </header><!-- .entry-header -->
     <?php if ( is_search() ) : // Only display Excerpts for Search ?>
