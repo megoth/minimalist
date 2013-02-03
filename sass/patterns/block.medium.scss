@@ -37,3 +37,7 @@
     }
   }
 }
+.block-skills {
+  @include grid-row;
+  padding: 0 1em;
+}

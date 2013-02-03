@@ -1,0 +1,20 @@
+/* line 4, ../sass/patterns/list.medium.scss */
+dl.list-skills dt {
+  font-weight: normal;
+  float: left;
+  width: 11em;
+}
+/* line 9, ../sass/patterns/list.medium.scss */
+dl.list-skills dd {
+  margin-left: 11em;
+}
+/* line 11, ../sass/patterns/list.medium.scss */
+dl.list-skills dd.progress {
+  margin-bottom: 0.5em;
+}
+/* line 13, ../sass/patterns/list.medium.scss */
+dl.list-skills dd.progress > .bar {
+  text-shadow: black 1px 1px 1px;
+  padding-right: 1px;
+  text-align: right;
+}

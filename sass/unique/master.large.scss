@@ -1,5 +1,5 @@
 #MasterFooter {
-  height: $dimension-footer-height;
+  height: $dimension-footer-height - 2em;
   @include grid-row;
   a {
     font-size: 0.9em;

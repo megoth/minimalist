@@ -36,11 +36,12 @@
 /* line 18, sass/mixins/grid.medium.scss */
 .block-single-aside > .grid-item {
   float: left;
-  margin-left: 2.326%;
-  width: 48.837%;
+  margin-left: 2.32558%;
+  width: 48.83721%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-.block-single-aside > .grid-item:first-child {
+.block-single-aside > .grid-item:nth-child(2n+1) {
+  clear: left;
   margin-left: 0;
 }
 /* line 23, sass/patterns/block.medium.scss */
@@ -63,6 +64,45 @@
   right: 0;
 }
 
+/* line 40, sass/patterns/block.medium.scss */
+.block-skills {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0 1em;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+.block-skills > .grid-item {
+  float: left;
+  margin-left: 2.32558%;
+  width: 48.83721%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+.block-skills > .grid-item:nth-child(2n+1) {
+  clear: left;
+  margin-left: 0;
+}
+
+/* line 4, sass/patterns/list.medium.scss */
+dl.list-skills dt {
+  font-weight: normal;
+  float: left;
+  width: 11em;
+}
+/* line 9, sass/patterns/list.medium.scss */
+dl.list-skills dd {
+  margin-left: 11em;
+}
+/* line 11, sass/patterns/list.medium.scss */
+dl.list-skills dd.progress {
+  margin-bottom: 0.5em;
+}
+/* line 13, sass/patterns/list.medium.scss */
+dl.list-skills dd.progress > .bar {
+  text-shadow: black 1px 1px 1px;
+  padding-right: 1px;
+  text-align: right;
+}
+
 /* line 4, sass/patterns/navigation.medium.scss */
 .navigation-main ul.nav {
   margin: 0;
@@ -71,7 +111,7 @@
   overflow: hidden;
   *zoom: 1;
 }
-/* line 60, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 60, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li {
   list-style-image: none;
   list-style-type: none;
@@ -82,15 +122,15 @@
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li:first-child, .navigation-main ul.nav li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .navigation-main ul.nav li.last {
   padding-right: 0;
 }
@@ -141,11 +181,12 @@ body {
 /* line 18, sass/mixins/grid.medium.scss */
 #IndexAside > .grid-item {
   float: left;
-  margin-left: 2.326%;
-  width: 48.837%;
+  margin-left: 2.32558%;
+  width: 48.83721%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-#IndexAside > .grid-item:first-child {
+#IndexAside > .grid-item:nth-child(2n+1) {
+  clear: left;
   margin-left: 0;
 }
 
@@ -157,11 +198,12 @@ body {
 /* line 18, sass/mixins/grid.medium.scss */
 #IndexHeader > .grid-item {
   float: left;
-  margin-left: 2.326%;
-  width: 48.837%;
+  margin-left: 2.32558%;
+  width: 48.83721%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-#IndexHeader > .grid-item:first-child {
+#IndexHeader > .grid-item:nth-child(2n+1) {
+  clear: left;
   margin-left: 0;
 }
 /* line 6, sass/unique/index.medium.scss */
@@ -189,10 +231,11 @@ body {
 /* line 18, sass/mixins/grid.medium.scss */
 #SplashSidebar .grid-row > .grid-item {
   float: left;
-  margin-left: 2.326%;
-  width: 48.837%;
+  margin-left: 2.32558%;
+  width: 48.83721%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-#SplashSidebar .grid-row > .grid-item:first-child {
+#SplashSidebar .grid-row > .grid-item:nth-child(2n+1) {
+  clear: left;
   margin-left: 0;
 }

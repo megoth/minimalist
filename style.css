@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: minimalistic
 Text Domain: minimalistic
 */
-/* line 17, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -4105,10 +4105,10 @@ a.thumbnail:hover {
   height: 20px;
   margin-bottom: 20px;
   background-color: #f7f7f7;
-  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
-  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
-  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -moz-linear-gradient(top, whitesmoke, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, whitesmoke, #f9f9f9);
+  background-image: -o-linear-gradient(top, whitesmoke, #f9f9f9);
   background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
@@ -4470,11 +4470,25 @@ button.close {
   margin: 1em 0;
 }
 /* line 38, sass/patterns/block.scss */
+.block-content section section {
+  padding: 0 1rem;
+}
+/* line 45, sass/patterns/block.scss */
+.block-content section section > h1,
+.block-content section section > h2,
+.block-content section section > h3,
+.block-content section section > h4,
+.block-content section section > h5,
+.block-content section section > h6 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+/* line 52, sass/patterns/block.scss */
 .block-content ul li {
   list-style-type: square;
 }
 
-/* line 43, sass/patterns/block.scss */
+/* line 57, sass/patterns/block.scss */
 .block-photo {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
@@ -4491,7 +4505,7 @@ button.close {
   margin: 0 1em 1em;
   padding: 0.5em;
 }
-/* line 50, sass/patterns/block.scss */
+/* line 64, sass/patterns/block.scss */
 .block-photo img {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
@@ -4501,36 +4515,36 @@ button.close {
   width: 100%;
 }
 
-/* line 56, sass/patterns/block.scss */
+/* line 70, sass/patterns/block.scss */
 .block-posts article {
   border-bottom: solid 1px #dddddd;
   margin: 1em 0;
   padding: 0 1em 1em;
 }
-/* line 60, sass/patterns/block.scss */
+/* line 74, sass/patterns/block.scss */
 .block-posts article iframe {
   width: 100%;
 }
-/* line 63, sass/patterns/block.scss */
+/* line 77, sass/patterns/block.scss */
 .block-posts article .meta {
   color: #999999;
 }
-/* line 65, sass/patterns/block.scss */
+/* line 79, sass/patterns/block.scss */
 .block-posts article .meta a {
   color: #999999;
   text-decoration: underline;
 }
-/* line 70, sass/patterns/block.scss */
+/* line 84, sass/patterns/block.scss */
 .block-posts article:last-child {
   border-bottom: 0;
 }
-/* line 74, sass/patterns/block.scss */
+/* line 88, sass/patterns/block.scss */
 .block-posts .more-link {
   display: block;
   text-align: right;
 }
 
-/* line 80, sass/patterns/block.scss */
+/* line 94, sass/patterns/block.scss */
 .block-single-aside > * {
   margin-bottom: 1em;
 }
@@ -4625,7 +4639,17 @@ body:hover {
   text-decoration: none;
 }
 
+/* line 11, sass/patterns/tags.scss */
+dl dt {
+  font-weight: bold;
+  line-height: 1.5em;
+}
 /* line 15, sass/patterns/tags.scss */
+dl dd {
+  margin-left: 2em;
+}
+
+/* line 24, sass/patterns/tags.scss */
 h1,
 h2,
 h3,
@@ -4635,7 +4659,7 @@ h6 {
   line-height: 1.25em;
   margin: 0;
 }
-/* line 18, sass/patterns/tags.scss */
+/* line 27, sass/patterns/tags.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -4659,7 +4683,7 @@ h6 a:hover {
   text-decoration: none;
 }
 
-/* line 22, sass/patterns/tags.scss */
+/* line 31, sass/patterns/tags.scss */
 h1 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
@@ -4674,7 +4698,7 @@ h1:hover {
   text-decoration: none;
 }
 
-/* line 25, sass/patterns/tags.scss */
+/* line 34, sass/patterns/tags.scss */
 h2 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
@@ -4689,7 +4713,7 @@ h2:hover {
   text-decoration: none;
 }
 
-/* line 28, sass/patterns/tags.scss */
+/* line 37, sass/patterns/tags.scss */
 h3 {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
@@ -4704,7 +4728,7 @@ h3:hover {
   text-decoration: none;
 }
 
-/* line 33, sass/patterns/tags.scss */
+/* line 42, sass/patterns/tags.scss */
 h4,
 h5,
 h6 {
@@ -4722,16 +4746,16 @@ h6:hover {
   text-decoration: none;
 }
 
-/* line 36, sass/patterns/tags.scss */
+/* line 45, sass/patterns/tags.scss */
 header {
   margin-bottom: 0.5em;
 }
-/* line 38, sass/patterns/tags.scss */
+/* line 47, sass/patterns/tags.scss */
 header a {
   text-decoration: none;
 }
 
-/* line 48, sass/patterns/tags.scss */
+/* line 57, sass/patterns/tags.scss */
 hgroup h1,
 hgroup h2,
 hgroup h3,
@@ -4752,7 +4776,7 @@ hgroup h6:hover {
   color: black;
   text-decoration: none;
 }
-/* line 50, sass/patterns/tags.scss */
+/* line 59, sass/patterns/tags.scss */
 hgroup h1 a,
 hgroup h2 a,
 hgroup h3 a,
@@ -4777,6 +4801,13 @@ hgroup h6 a:hover {
 /* line 2, sass/unique/index.scss */
 #IndexMain {
   padding-top: 1em;
+}
+
+/* line 1, sass/unique/master.scss */
+#MasterFooter {
+  border-top: solid 1px #dddddd;
+  margin-top: 1.5em;
+  padding-top: 0.5em;
 }
 
 /* line 1, sass/unique/splash.scss */
