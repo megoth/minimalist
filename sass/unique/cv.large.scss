@@ -1,0 +1,14 @@
+
+#CvHeader {
+  float: right;
+  width: $dimension-grid-width;
+}
+#CvNavigation {
+  display: inline-block;
+  padding-top: 1em;
+  width: $dimension-grid-width * 2 + $dimension-grid-margin;
+  .navigation-main {
+    position: absolute;
+    top: 0;
+  }
+}

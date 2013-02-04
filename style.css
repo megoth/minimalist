@@ -4562,7 +4562,7 @@ form.form-search .input-append .search-query {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
-  border: solid 2px #a2c0c1;
+  border: solid 2px black;
 }
 /* line 12, sass/patterns/bootstrap.scss */
 form.form-search .input-append .btn {
@@ -4584,6 +4584,13 @@ form.form-search .input-append .search-query {
   padding-left: 1em;
   padding-right: 1em;
   margin-right: 0;
+}
+
+/* line 6, sass/patterns/list.scss */
+dl.list-skills dd.progress > .bar {
+  text-shadow: black 1px 1px 1px;
+  padding-right: 1px;
+  text-align: right;
 }
 
 /* line 4, sass/patterns/navigation.scss */
@@ -4614,11 +4621,12 @@ form.form-search .input-append .search-query {
 
 /* line 1, sass/patterns/tags.scss */
 a {
-  color: #a2c0c1;
+  color: black;
   text-decoration: none;
 }
-/* line 16, sass/mixins/typography.scss */
-a:hover {
+/* line 17, sass/mixins/typography.scss */
+a:hover, a:focus {
+  color: #707070;
   text-decoration: underline;
 }
 
@@ -4629,13 +4637,13 @@ blockquote {
 
 /* line 7, sass/patterns/tags.scss */
 body {
-  color: black;
+  color: #303030;
   font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
 /* line 5, sass/mixins/typography.scss */
 body:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -4666,65 +4674,65 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: black;
+  color: #303030;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 26, sass/mixins/typography.scss */
+/* line 28, sass/mixins/typography.scss */
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
 /* line 31, sass/patterns/tags.scss */
 h1 {
-  color: black;
+  color: #303030;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   font-size: 2.25em;
 }
-/* line 26, sass/mixins/typography.scss */
+/* line 28, sass/mixins/typography.scss */
 h1:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
 /* line 34, sass/patterns/tags.scss */
 h2 {
-  color: black;
+  color: #303030;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.75em;
 }
-/* line 26, sass/mixins/typography.scss */
+/* line 28, sass/mixins/typography.scss */
 h2:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
 /* line 37, sass/patterns/tags.scss */
 h3 {
-  color: black;
+  color: #303030;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.4em;
 }
-/* line 26, sass/mixins/typography.scss */
+/* line 28, sass/mixins/typography.scss */
 h3:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -4732,17 +4740,17 @@ h3:hover {
 h4,
 h5,
 h6 {
-  color: black;
+  color: #303030;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 26, sass/mixins/typography.scss */
+/* line 28, sass/mixins/typography.scss */
 h4:hover,
 h5:hover,
 h6:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -4762,7 +4770,7 @@ hgroup h3,
 hgroup h4,
 hgroup h5,
 hgroup h6 {
-  color: black;
+  color: #303030;
   font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
@@ -4773,7 +4781,7 @@ hgroup h3:hover,
 hgroup h4:hover,
 hgroup h5:hover,
 hgroup h6:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 /* line 59, sass/patterns/tags.scss */
@@ -4783,7 +4791,7 @@ hgroup h3 a,
 hgroup h4 a,
 hgroup h5 a,
 hgroup h6 a {
-  color: black;
+  color: #303030;
   font-family: "Arial", "Tahoma", "Georgia";
   text-decoration: none;
 }
@@ -4794,7 +4802,7 @@ hgroup h3 a:hover,
 hgroup h4 a:hover,
 hgroup h5 a:hover,
 hgroup h6 a:hover {
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 

@@ -11,29 +11,6 @@
 }
 #SplashHeader {
   display: block;
-  padding-top: $dimension-main-nav-height + 1em;
-  position:relative;
-  width: auto;
-  h1 {
-    line-height: normal;
-    a {
-      display: block;
-      span {
-        display: block;
-        line-height: 0.8em;
-      }
-      .first {
-        font-size: 2.50em;
-      }
-      .second {
-        font-size: 1.45em;
-      }
-    }
-  }
-  .navigation-main {
-    position: absolute;
-    top: 0;
-  }
 }
 #SplashHeaderMobile {
   display: none;

@@ -45,6 +45,21 @@
   width: 66.01307%;
 }
 
+/* line 3, sass/patterns/list.large.scss */
+dl.list-skills dt {
+  font-weight: normal;
+  float: left;
+  width: 11em;
+}
+/* line 8, sass/patterns/list.large.scss */
+dl.list-skills dd {
+  margin-left: 11em;
+}
+/* line 10, sass/patterns/list.large.scss */
+dl.list-skills dd.progress {
+  margin-bottom: 0.5em;
+}
+
 /* line 3, sass/patterns/navigation.large.scss */
 .navigation-main ul.nav li {
   float: left;
@@ -53,6 +68,57 @@
 .navigation-main ul.nav a {
   margin-left: 0;
   margin-right: 1em;
+}
+
+/* line 1, sass/patterns/page.large.scss */
+.page-header {
+  padding-top: 6em;
+  position: relative;
+  width: auto;
+}
+/* line 5, sass/patterns/page.large.scss */
+.page-header h1 {
+  line-height: normal;
+}
+/* line 7, sass/patterns/page.large.scss */
+.page-header h1 a {
+  display: block;
+}
+/* line 9, sass/patterns/page.large.scss */
+.page-header h1 a span {
+  display: block;
+  line-height: 0.8em;
+}
+/* line 13, sass/patterns/page.large.scss */
+.page-header h1 a .first {
+  font-size: 2.50em;
+}
+/* line 16, sass/patterns/page.large.scss */
+.page-header h1 a .second {
+  font-size: 1.45em;
+}
+/* line 21, sass/patterns/page.large.scss */
+.page-header .navigation-main {
+  position: absolute;
+  top: 0;
+}
+
+/* line 2, sass/unique/cv.large.scss */
+#CvHeader {
+  float: right;
+  width: 32.02614%;
+}
+
+/* line 6, sass/unique/cv.large.scss */
+#CvNavigation {
+  display: inline-block;
+  padding-top: 1em;
+  width: 66.01307%;
+}
+/* line 10, sass/unique/cv.large.scss */
+#CvNavigation .navigation-main {
+  position: absolute;
+  top: 0;
 }
 
 /* line 3, sass/mixins/grid.medium.scss */
@@ -164,38 +230,9 @@
 /* line 12, sass/unique/splash.large.scss */
 #SplashHeader {
   display: block;
-  padding-top: 6em;
-  position: relative;
-  width: auto;
-}
-/* line 17, sass/unique/splash.large.scss */
-#SplashHeader h1 {
-  line-height: normal;
-}
-/* line 19, sass/unique/splash.large.scss */
-#SplashHeader h1 a {
-  display: block;
-}
-/* line 21, sass/unique/splash.large.scss */
-#SplashHeader h1 a span {
-  display: block;
-  line-height: 0.8em;
-}
-/* line 25, sass/unique/splash.large.scss */
-#SplashHeader h1 a .first {
-  font-size: 2.50em;
-}
-/* line 28, sass/unique/splash.large.scss */
-#SplashHeader h1 a .second {
-  font-size: 1.45em;
-}
-/* line 33, sass/unique/splash.large.scss */
-#SplashHeader .navigation-main {
-  position: absolute;
-  top: 0;
 }
 
-/* line 38, sass/unique/splash.large.scss */
+/* line 15, sass/unique/splash.large.scss */
 #SplashHeaderMobile {
   display: none;
 }

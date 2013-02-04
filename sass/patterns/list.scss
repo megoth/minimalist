@@ -1,15 +1,8 @@
 @import "compass/css3/text-shadow";
 
 dl.list-skills {
-  dt {
-    font-weight: normal;
-    float: left;
-    width: 11em;
-  }
   dd {
-    margin-left: 11em;
     &.progress {
-      margin-bottom: 0.5em;
       > .bar {
         @include text-shadow(#000 1px 1px 1px);
         padding-right: 1px;

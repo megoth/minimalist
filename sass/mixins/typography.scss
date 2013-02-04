@@ -13,7 +13,9 @@
 @mixin typography-link {
   color: $color-link;
   text-decoration: none;
-  &:hover {
+  &:hover,
+  &:focus {
+    color: $color-link-focus;
     text-decoration: underline;
   }
 }

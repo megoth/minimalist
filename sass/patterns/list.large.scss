@@ -1,0 +1,14 @@
+
+dl.list-skills {
+  dt {
+    font-weight: normal;
+    float: left;
+    width: 11em;
+  }
+  dd {
+    margin-left: 11em;
+    &.progress {
+      margin-bottom: 0.5em;
+    }
+  }
+}

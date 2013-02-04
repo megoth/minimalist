@@ -1,24 +1,14 @@
 /*
-Syntax error: Undefined mixin 'grid-row'.
-        on line 3 of /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss, in `grid-row'
-        from line 3 of /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss
+Syntax error: Undefined variable: "$dimension-grid-width".
+        on line 4 of /var/www/icanhasweb-splash/minimalist/sass/unique/cv.large.scss
 
-1: /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss
+1: /var/www/icanhasweb-splash/minimalist/sass/unique/cv.large.scss
 
 Backtrace:
-/var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss:3:in `grid-row'
-/var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss:3
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:251:in `visit_mixin'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/var/www/icanhasweb-splash/minimalist/sass/unique/cv.large.scss:4
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/script/variable.rb:49:in `_perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/script/node.rb:40:in `perform'
+/home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
 /home/megoth/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -94,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 3 of /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss, in `grid-row'\A         from line 3 of /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss\A \A 1: /var/www/icanhasweb-splash/minimalist/sass/unique/splash.large.scss"; }
+  content: "Syntax error: Undefined variable: \"$dimension-grid-width\".\A         on line 4 of /var/www/icanhasweb-splash/minimalist/sass/unique/cv.large.scss\A \A 1: /var/www/icanhasweb-splash/minimalist/sass/unique/cv.large.scss"; }
