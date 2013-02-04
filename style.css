@@ -4592,6 +4592,14 @@ dl.list-skills dd.progress > .bar {
   padding-right: 1px;
   text-align: right;
 }
+/* line 10, sass/patterns/list.scss */
+dl.list-skills dd.progress > .bar.bar-success {
+  background-color: #a2c0c1;
+}
+/* line 13, sass/patterns/list.scss */
+dl.list-skills dd.progress > .bar.bar-warning {
+  background-color: #dddddd;
+}
 
 /* line 4, sass/patterns/navigation.scss */
 .navigation-main ul.nav li {
