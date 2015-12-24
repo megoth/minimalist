@@ -3,6 +3,7 @@ $aside-column: 100% - $main-column;
 
 header[role="banner"] {
   hgroup {
+    align-self: flex-end;
     flex: 1 1 $main-column;
   }
   nav {
@@ -17,47 +18,5 @@ header nav[role="navigation"] ul li a {
 main ~ aside {
   > article {
     flex: 0 0 33.33%;
-  }
-}
-
-@supports( display: grid ) {
-  body.index .layout-container {
-    display: grid;
-    grid-template-columns: $main-column $aside-column;
-    grid-template-rows: 262px 100% 0;
-    > header {
-      flex-direction: column;
-      grid-column: 2;
-      grid-row: 1;
-      hgroup {
-        flex: 1 1 100%;
-        order: 2;
-      }
-      nav {
-        flex: none;
-        margin-bottom: 0.5em;
-        order: 1;
-      }
-    }
-    > main {
-      align-self: start;
-      grid-column: 1;
-      grid-row: 1 / span 2;
-      margin-right: 1em;
-      margin-top: $dimension-main-nav-height;
-    }
-    > aside {
-      align-self: start;
-      grid-column: 2;
-      grid-row: 2;
-    }
-    > footer {
-      grid-column: auto / span 2;
-      grid-row: 3;
-    }
-  }
-
-  main ~ aside {
-    display: block;
   }
 }
