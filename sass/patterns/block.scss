@@ -1,9 +1,6 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/transform";
 
-.block-container {
-  padding: 0.5em 1em;
-}
 .block-content {
   blockquote {
     border: dotted 1px $color-divider;
@@ -19,10 +16,19 @@
     margin: 1rem 0;
   }
   ol,
+  ul,
+  p {
+    line-height: 1.25em;
+  }
+  ol,
   ul {
+    margin: 1em 0 1em 1.2em;
+    li {
+      margin-bottom: 0.25em;
+    }
     ol,
     ul {
-      margin: 1em 0 1em 1.2em;
+      margin: 0.25em 0 0.25em 1.2em;
     }
   }
   ol {
@@ -31,7 +37,6 @@
     }
   }
   p {
-    line-height: 1.25em;
     margin: 1em 0;
   }
   section {

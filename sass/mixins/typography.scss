@@ -12,11 +12,10 @@
 }
 @mixin typography-link {
   color: $color-link;
-  text-decoration: none;
+  text-decoration: underline;
   &:hover,
   &:focus {
     color: $color-link-focus;
-    text-decoration: underline;
   }
 }
 @mixin typography-title {
@@ -27,7 +26,6 @@
   text-decoration: none;
   &:hover {
     color: $color-text;
-    text-decoration: none;
   }
 }
 @mixin typography-title-large {
