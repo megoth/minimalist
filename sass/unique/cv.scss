@@ -1,0 +1,31 @@
+#CvContent section {
+  &.closed h3 {
+    overflow: hidden;
+    *zoom: 1;
+    background-color: $color-link;
+    color: white;
+    cursor: pointer;
+    padding: 0.5em;
+    i {
+      display: none;
+      float: right;
+      &.icon-download {
+        display: inline-block;
+      }
+    }
+    ~ * {
+      display: none;
+    }
+  }
+  &.open h3 {
+    i.icon-download {
+      display: none;
+    }
+    i.icon-upload {
+      display: inline-block;
+    }
+    ~ * {
+      display: block;
+    }
+  }
+}

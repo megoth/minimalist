@@ -2,7 +2,15 @@ a {
   @include typography-link;
 }
 blockquote {
+  background-color: $color-info;
+  border: solid 1px $color-divider;
   padding: 1em;
+  > *:first-child {
+    margin-top: 0;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }
 body {
   @include typography-default;

@@ -14,14 +14,27 @@
   }
 }
 @mixin grid-row {
-  @include clearfix;
-  > .grid-item {
+  @supports(display: flex) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @supports not(display: flex) {
+    @include clearfix;
+  }
+}
+@mixin grid-item {
+  margin-left: $dimension-grid-margin;
+  &:nth-child(2n+1) {
+    margin-left: 0;
+  }
+  @supports(display: flex) {
+    flex: 0 0 $dimension-grid-width;
+  }
+  @supports not(display: flex) {
     float: left;
-    margin-left: $dimension-grid-margin;
     width: $dimension-grid-width;
     &:nth-child(2n+1) {
       clear: left;
-      margin-left: 0;
     }
   }
 }

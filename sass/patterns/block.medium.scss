@@ -38,7 +38,10 @@
     }
   }
 }
+.block-projects,
 .block-skills {
   @include grid-row;
-  padding: 0 1em;
+  > article {
+    @include grid-item;
+  }
 }

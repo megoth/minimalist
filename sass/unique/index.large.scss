@@ -1,3 +1,6 @@
+$main-column: 100% / 3 * 2;
+$aside-column: 100% - $main-column;
+
 body.index .layout-container {
   main ~ aside {
     display: block;
