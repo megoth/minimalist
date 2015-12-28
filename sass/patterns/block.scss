@@ -1,6 +1,9 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/transform";
 
+.block-container {
+  margin: 0 1em;
+}
 .block-content {
   blockquote {
     border: dotted 1px $color-divider;

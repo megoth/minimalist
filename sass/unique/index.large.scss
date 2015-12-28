@@ -11,7 +11,7 @@ body.index .layout-container {
   body.index .layout-container {
     display: grid;
     grid-template-columns: $main-column $aside-column;
-    grid-template-rows: 262px 100% 0;
+    grid-template-rows: auto 100% auto;
     > header {
       flex-direction: column;
       grid-column: 2;

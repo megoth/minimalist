@@ -27,6 +27,16 @@ main nav ul {
 
 footer {
   border-top: solid 1px $color-divider;
-  margin-top: 1em;
   padding: 0.5em 0;
+}
+
+#cookies.js-enabled {
+  background: $color-link;
+  bottom: 0;
+  color: $color-background;
+  position: fixed;
+  width: 100%;
+  a {
+    color: $color-background;
+  }
 }
