@@ -1,3 +1,7 @@
+a, button, input, select, textarea, label, summary {
+  // a little trick from https://medium.com/@adactio/delay-a9df9edceef3
+  touch-action: manipulation;
+}
 a {
   @include typography-link;
 }
