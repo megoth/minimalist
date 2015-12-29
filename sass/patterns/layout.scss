@@ -11,12 +11,23 @@ header nav[role="navigation"] {
       background-color: $color-nav-main;
       color: $color-background;
       display: block;
+
       margin-top: 0.5em;
       padding: 0.5em;
       text-decoration: none;
     }
     .triangle {
       display: none;
+    }
+  }
+}
+@media (max-width: 30em) {
+  header nav[role="navigation"] {
+    ul {
+      @include grid-row;
+      li {
+        @include grid-item(49%, 2%);
+      }
     }
   }
 }
