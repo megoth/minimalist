@@ -11,13 +11,13 @@ body.index .layout-container {
   body.index .layout-container {
     display: grid;
     grid-template-columns: $main-column $aside-column;
-    grid-template-rows: auto 100% auto;
+    grid-template-rows: auto 1fr;
     > header {
       flex-direction: column;
       grid-column: 2;
       grid-row: 1;
       hgroup {
-        flex: 1 1 100%;
+        flex: none;
         order: 2;
       }
       nav {
