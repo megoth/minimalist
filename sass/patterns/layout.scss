@@ -4,7 +4,9 @@ header hgroup {
 
 header nav[role="navigation"] {
   ul {
+    @include grid-row;
     li {
+      @include grid-item(49%, 2%);
       padding: 0;
     }
     a {
@@ -18,16 +20,6 @@ header nav[role="navigation"] {
     }
     .triangle {
       display: none;
-    }
-  }
-}
-@media (max-width: 30em) {
-  header nav[role="navigation"] {
-    ul {
-      @include grid-row;
-      li {
-        @include grid-item(49%, 2%);
-      }
     }
   }
 }

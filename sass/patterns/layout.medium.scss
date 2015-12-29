@@ -1,7 +1,7 @@
 @import "compass/typography/lists/horizontal-list";
 
 $main-column: 57%;
-$aside-column: 240px;
+$aside-column: 261px;
 
 header[role="banner"] {
   display: flex;
@@ -14,8 +14,10 @@ header[role="banner"] {
 }
 
 header nav[role="navigation"] ul {
+  @include grid-none;
   @include horizontal-list;
   li {
+    @include grid-none;
     display: inline;
     padding: 0;
   }

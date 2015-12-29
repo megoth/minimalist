@@ -1,6 +1,9 @@
 @import "compass/utilities/general/clearfix";
 @mixin grid-none {
-  > .grid-item {
+  @supports(display: flex) {
+    flex: none;
+  }
+  @supports not(display: flex) {
     float: none;
     width: auto;
     margin-left: 0;
