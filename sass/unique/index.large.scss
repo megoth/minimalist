@@ -53,6 +53,7 @@ body.index .layout-container {
 
 @supports not( display: grid) {
   body.index .layout-container {
+    @include clearfix;
     > main {
       float: left;
       margin-right: 2%;
