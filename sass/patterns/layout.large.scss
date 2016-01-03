@@ -1,3 +1,13 @@
+$main-column: 66.66%;
+
+header[role="banner"] {
+  hgroup {
+    @include grid-item($main-column, 0);
+  }
+  nav {
+    @include grid-item(100% - $main-column, 0);
+  }
+}
 header nav[role="navigation"] ul li a {
   margin-right: 1em;
 }

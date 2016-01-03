@@ -19,6 +19,23 @@ body.index .layout-container {
       hgroup {
         flex: none;
         order: 2;
+        h1 {
+          line-height: normal;
+          text-transform: uppercase;
+          a {
+            display: block;
+            span {
+              display: block;
+              line-height: 0.8em;
+            }
+            .first {
+              font-size: 2.65em;
+            }
+            .second {
+              font-size: 1.50em;
+            }
+          }
+        }
       }
       nav {
         flex: none;

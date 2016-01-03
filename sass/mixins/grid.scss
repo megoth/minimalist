@@ -16,25 +16,25 @@
     margin-left: $dimension-grid-width * $span + $dimension-grid-margin * $span;
   }
 }
-@mixin grid-row {
+@mixin grid-row($flex-wrap: wrap) {
   @supports(display: flex) {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: $flex-wrap;
   }
   @supports not(display: flex) {
     @include clearfix;
   }
 }
-@mixin grid-item($width: $dimension-grid-width, $margin: $dimension-grid-margin) {
+@mixin grid-item($width: $dimension-grid-width, $margin: $dimension-grid-margin, $flex-grow: 0, $flex-shrink: 0, $float-position: left) {
   margin-left: $margin;
   &:nth-child(2n+1) {
     margin-left: 0;
   }
   @supports(display: flex) {
-    flex: 0 0 $width;
+    flex: $flex-grow $flex-shrink $width;
   }
   @supports not(display: flex) {
-    float: left;
+    float: $float-position;
     width: $width;
     &:nth-child(2n+1) {
       clear: left;
