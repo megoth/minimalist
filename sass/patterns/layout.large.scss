@@ -8,9 +8,6 @@ header[role="banner"] {
     @include grid-item(100% - $main-column, 0);
   }
 }
-header nav[role="navigation"] ul li a {
-  margin-right: 1em;
-}
 
 main ~ aside {
   > article {
