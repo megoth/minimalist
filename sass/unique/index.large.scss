@@ -1,63 +1,64 @@
 $main-column: 100% / 3 * 2;
 $aside-column: 100% - $main-column;
 
-body.index .layout-container {
-  main ~ aside {
-    display: block;
-  }
+body.index .layout-content main ~ aside {
+  display: block;
 }
 
 @supports( display: grid ) {
   body.index .layout-container {
-    display: grid;
-    grid-template-columns: $main-column $aside-column;
-    grid-template-rows: auto 1fr;
-    > header {
-      flex-direction: column;
-      grid-column: 2;
-      grid-row: 1;
-      hgroup {
-        flex: none;
-        order: 2;
-        h1 {
-          line-height: normal;
-          text-transform: uppercase;
-          a {
-            display: block;
-            span {
+    display: block;
+    .layout-content {
+      display: grid;
+      grid-template-columns: $main-column $aside-column;
+      grid-template-rows: auto 1fr;
+      > header {
+        flex-direction: column;
+        grid-column: 2;
+        grid-row: 1;
+        hgroup {
+          flex: none;
+          order: 2;
+          h1 {
+            line-height: normal;
+            text-transform: uppercase;
+            a {
               display: block;
-              line-height: 0.8em;
-            }
-            .first {
-              font-size: 2.65em;
-            }
-            .second {
-              font-size: 1.50em;
+              span {
+                display: block;
+                line-height: 0.8em;
+              }
+              .first {
+                font-size: 2.65em;
+              }
+              .second {
+                font-size: 1.50em;
+              }
             }
           }
         }
+        nav {
+          flex: none;
+          margin-bottom: 0.5em;
+          order: 1;
+        }
       }
-      nav {
-        flex: none;
-        margin-bottom: 0.5em;
-        order: 1;
+      > main {
+        align-self: start;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        margin-right: 1em;
+        margin-top: $dimension-main-nav-height;
       }
-    }
-    > main {
-      align-self: start;
-      grid-column: 1;
-      grid-row: 1 / span 2;
-      margin-right: 1em;
-      margin-top: $dimension-main-nav-height;
-    }
-    > aside {
-      align-self: start;
-      grid-column: 2;
-      grid-row: 2;
-    }
-    > footer {
-      grid-column: auto / span 2;
-      grid-row: 3;
+      > aside {
+        align-self: start;
+        grid-column: 2;
+        grid-row: 2;
+      }
+      > footer {
+        grid-column: auto / span 2;
+        grid-row: 3;
+      }
     }
   }
 
@@ -69,7 +70,7 @@ body.index .layout-container {
 }
 
 @supports not( display: grid) {
-  body.index .layout-container {
+  body.index .layout-content {
     @include clearfix;
     > main {
       float: left;

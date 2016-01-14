@@ -1,5 +1,6 @@
 .block-container {
   max-width: $dimension-container-width * 1em;
+  width: $dimension-container-width * 1em;
 }
 .block-posts {
   article:first-child {
