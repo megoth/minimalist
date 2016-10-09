@@ -1,0 +1,7 @@
+.meta {
+  @include typography-info;
+  a {
+    @include typography-info(1em);
+    @include typography-underline-link($color-text, $color-text);
+  }
+}
