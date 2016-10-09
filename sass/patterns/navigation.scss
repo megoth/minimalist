@@ -1,0 +1,12 @@
+@import "compass/utilities/general/clearfix";
+
+.nav-history ul {
+  @include clearfix;
+  li {
+    float: left;
+    width: 50%;
+    &.newer {
+      text-align: right;
+    }
+  }
+}

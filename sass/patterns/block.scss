@@ -5,6 +5,10 @@
   margin: 0 1em;
 }
 .block-content {
+  @include typography-content;
+  a {
+    @include typography-underline-link;
+  }
   blockquote {
     border: dotted 1px $color-divider;
     p {
@@ -93,19 +97,11 @@
     iframe {
       width: 100%;
     }
-    .meta {
-      @include typography-info;
-      a {
-        @include typography-info;
-        text-decoration: underline;
-      }
-    }
     &:last-child {
       border-bottom: 0;
     }
   }
   .more-link {
-    display: block;
     text-align: right;
   }
 }

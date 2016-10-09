@@ -4,6 +4,10 @@ header[role="banner"] {
   @include grid-row(nowrap);
   hgroup {
     @include grid-item(17em, 0, 1, 1);
+    &.bottom {
+      display: flex;
+      align-items: flex-end;
+    }
   }
   nav {
     @include grid-item(16em, 0, 0, 0, right);

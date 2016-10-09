@@ -1,3 +1,6 @@
+@mixin typography-content {
+  font-family: 'Abhaya Libre', serif;
+}
 @mixin typography-default {
   color: $color-text;
   font-family: "Arial", "Tahoma", "Georgia";
@@ -7,8 +10,10 @@
     text-decoration: none;
   }
 }
-@mixin typography-info {
+@mixin typography-info($font-size: 0.8em) {
   color: $color-text-info;
+  font-size: $font-size;
+  font-style: italic;
 }
 @mixin typography-link {
   color: $color-link;
@@ -39,4 +44,18 @@
 @mixin typography-title-small {
   @include typography-title;
   font-size: 1.4em;
+}
+@mixin typography-underline($font-color: $color-text) {
+  background: linear-gradient($color-background, $color-background), linear-gradient($color-background, $color-background), linear-gradient($font-color, $font-color);
+  background-position: 0 80%, 100% 80%, 0 80%;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-size: .05em 1px, .05em 1px, 1px 1px;
+  text-shadow: .03em 0 #fff, -.03em 0 #fff, 0 .03em #fff, 0 -.03em #fff, .06em 0 #fff, -.06em 0 #fff, .09em 0 #fff, -.09em 0 #fff, .12em 0 #fff, -.12em 0 #fff, .15em 0 #fff, -.15em 0 #fff;
+}
+@mixin typography-underline-link($link-color: $color-link, $focus-color: $color-link-focus) {
+  @include typography-underline($link-color);
+  text-decoration: none;
+  &:hover {
+    @include typography-underline($focus-color);
+  }
 }
