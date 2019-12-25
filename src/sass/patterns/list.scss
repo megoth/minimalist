@@ -1,0 +1,19 @@
+@import "../mixins/compass";
+
+dl.list-skills {
+  dd {
+    &.progress {
+      > .bar {
+        @include text-shadow(#000 1px 1px 1px);
+        padding-right: 1px;
+        text-align: right;
+        &.bar-success {
+          background-color: $color-nav-main;
+        }
+        &.bar-warning {
+          background-color: $color-divider;
+        }
+      }
+    }
+  }
+}

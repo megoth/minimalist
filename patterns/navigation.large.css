@@ -1,9 +1,0 @@
-/* line 3, ../sass/patterns/navigation.large.scss */
-.navigation-main ul.nav li {
-  float: left;
-}
-/* line 6, ../sass/patterns/navigation.large.scss */
-.navigation-main ul.nav a {
-  margin-left: 0;
-  margin-right: 1em;
-}

@@ -1,0 +1,46 @@
+@import "../mixins/compass";
+@mixin grid-none {
+  @supports(display: flex) {
+    flex: none;
+  }
+  @supports not(display: flex) {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@mixin grid-offset($span: 1) {
+  margin-left: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+  &:first-child {
+    margin-left: $dimension-grid-width * $span + $dimension-grid-margin * $span;
+  }
+}
+@mixin grid-row($flex-wrap: wrap) {
+  @supports(display: flex) {
+    display: flex;
+    flex-wrap: $flex-wrap;
+  }
+  @supports not(display: flex) {
+    @include clearfix;
+  }
+}
+@mixin grid-item($width: $dimension-grid-width, $margin: $dimension-grid-margin, $flex-grow: 0, $flex-shrink: 0, $float-position: left) {
+  margin-left: $margin;
+  &:nth-child(2n+1) {
+    margin-left: 0;
+  }
+  @supports(display: flex) {
+    flex: $flex-grow $flex-shrink $width;
+  }
+  @supports not(display: flex) {
+    float: $float-position;
+    width: $width;
+    &:nth-child(2n+1) {
+      clear: left;
+    }
+  }
+}
+@mixin grid-span($span: 1) {
+  width: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+}

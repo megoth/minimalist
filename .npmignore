@@ -1,5 +1,6 @@
+*.rb
+*.php
+js
 .idea
 .sass-cache
 *~
-dist
-node_modules

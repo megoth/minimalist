@@ -1,0 +1,24 @@
+{
+  "name": "minimalist",
+  "version": "1.0.0",
+  "description": "A minimalistic CSS theme, used at icanhasweb.net",
+  "directories": {
+    "lib": "css"
+  },
+  "scripts": {
+    "build-styles": "node-sass src/sass/*.scss css/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megoth/minimalist.git"
+  },
+  "author": "Arne Hassel <arneh@inrupt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megoth/minimalist/issues"
+  },
+  "homepage": "https://github.com/megoth/minimalist#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
