@@ -39,8 +39,7 @@
 }
 .block-projects,
 .block-skills {
-  @include grid-row;
-  > article {
-    @include grid-item;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
 }

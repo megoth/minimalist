@@ -10,11 +10,13 @@ License URI: https://opensource.org/licenses/MIT
 Tags: minimalistic
 Text Domain: minimalistic
 */
+
 @import "src/variables/color";
 @import "src/variables/dimension";
 @import "src/mixins/grid";
 @import "src/mixins/typography";
-@import "src/patterns/bootstrap";
+@import "lib/reset";
+@import "lib/bootstrap";
 @import "src/patterns/block";
 @import "src/patterns/global";
 @import "src/patterns/layout";

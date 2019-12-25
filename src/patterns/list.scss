@@ -3,14 +3,14 @@
 dl.list-skills {
   dd {
     &.progress {
-      > .bar {
+      > .progress-bar {
         @include text-shadow(#000 1px 1px 1px);
         padding-right: 1px;
         text-align: right;
-        &.bar-success {
+        &--success {
           background-color: $color-nav-main;
         }
-        &.bar-warning {
+        &--warning {
           background-color: $color-divider;
         }
       }

@@ -1,14 +1,8 @@
 
 dl.list-skills {
+  display: grid;
+  grid-template-columns: 11em 1fr;
   dt {
     font-weight: normal;
-    float: left;
-    width: 11em;
-  }
-  dd {
-    margin-left: 11em;
-    &.progress {
-      margin-bottom: 0.5em;
-    }
   }
 }
