@@ -47,11 +47,5 @@ main ~ aside {
 
   > article {
     flex: 0 0 50%;
-
-    > *:nth-child(n+2) {
-      padding: 0.5em;
-      padding-bottom: inherit;
-      padding-top: inherit;
-    }
   }
 }

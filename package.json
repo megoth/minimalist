@@ -6,8 +6,9 @@
     "lib": "css"
   },
   "scripts": {
-    "build": "npm run build-styles",
+    "build": "npm run build-styles && npm run build-fonts",
     "build-styles": "node-sass src/style.scss dist/style.css && node-sass src/style.medium.scss dist/style.medium.css && node-sass src/style.large.scss dist/style.large.css",
+    "build-fonts": "copyfiles -f src/fonts/**/*.woff2 dist/fonts",
     "prepublishOnly": "npm run build",
     "postpublish": "git push origin master --follow-tags"
   },
@@ -25,6 +26,7 @@
     "bootstrap-scss": "^4.4.1"
   },
   "devDependencies": {
+    "copyfiles": "^2.1.1",
     "node-sass": "^4.13.0"
   }
 }
