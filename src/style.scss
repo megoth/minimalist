@@ -1,0 +1,27 @@
+/*
+Theme Name: Minimalist
+Theme URI: https://github.com/megoth/minimalist
+Author: Arne Hassel
+Author URI: http://icanhasweb.net/
+Description: A minimalistic theme for Wordpress
+Version: 1.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: minimalistic
+Text Domain: minimalistic
+*/
+@import "src/variables/color";
+@import "src/variables/dimension";
+@import "src/mixins/grid";
+@import "src/mixins/typography";
+@import "src/patterns/bootstrap";
+@import "src/patterns/block";
+@import "src/patterns/global";
+@import "src/patterns/layout";
+@import "src/patterns/list";
+@import "src/patterns/navigation";
+@import "src/patterns/tags";
+@import "src/unique/cv";
+@import "src/unique/index";
+@import "src/unique/master";
+@import "src/unique/splash";

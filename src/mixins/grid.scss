@@ -1,4 +1,4 @@
-@import "../mixins/compass";
+@import "compass";
 @mixin grid-none {
   @supports(display: flex) {
     flex: none;

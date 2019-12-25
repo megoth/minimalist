@@ -1,12 +1,13 @@
 {
   "name": "minimalist",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A minimalistic CSS theme, used at icanhasweb.net",
   "directories": {
     "lib": "css"
   },
   "scripts": {
-    "build-styles": "node-sass src/sass/*.scss css/*.css"
+    "build": "npm run build-styles",
+    "build-styles": "node-sass src/style.scss dist/style.css && node-sass src/style.medium.scss dist/style.medium.css && node-sass src/style.large.scss dist/style.large.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
     "url": "https://github.com/megoth/minimalist/issues"
   },
   "homepage": "https://github.com/megoth/minimalist#readme",
+  "dependencies": {
+    "bootstrap-scss": "^4.4.1"
+  },
   "devDependencies": {
     "node-sass": "^4.13.0"
   }
