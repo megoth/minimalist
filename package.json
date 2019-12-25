@@ -7,7 +7,9 @@
   },
   "scripts": {
     "build": "npm run build-styles",
-    "build-styles": "node-sass src/style.scss dist/style.css && node-sass src/style.medium.scss dist/style.medium.css && node-sass src/style.large.scss dist/style.large.css"
+    "build-styles": "node-sass src/style.scss dist/style.css && node-sass src/style.medium.scss dist/style.medium.css && node-sass src/style.large.scss dist/style.large.css",
+    "prepublishOnly": "npm run build",
+    "postpublish": "git push origin master --follow-tags"
   },
   "repository": {
     "type": "git",
