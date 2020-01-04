@@ -5,44 +5,54 @@ body.index .layout-content main ~ aside {
   display: block;
 }
 
-@supports( display: grid ) {
+@supports ( display: grid ) {
   body.index .layout-container {
     display: block;
+
     .layout-content {
       display: grid;
       grid-template-columns: $main-column $aside-column;
       grid-template-rows: auto 1fr;
+
       > header {
         flex-direction: column;
         grid-column: 2;
         grid-row: 1;
+
         hgroup {
           flex: none;
           order: 2;
+
           h1 {
             line-height: normal;
             text-transform: uppercase;
+
             a {
               display: block;
+
               span {
                 display: block;
                 line-height: 0.8em;
               }
+
               .first {
-                font-size: 2.65em;
+                font-size: 2.46em;
               }
+
               .second {
                 font-size: 1.50em;
               }
             }
           }
         }
+
         nav {
           flex: none;
           margin-bottom: 0.5em;
           order: 1;
         }
       }
+
       > main {
         align-self: start;
         grid-column: 1;
@@ -50,11 +60,13 @@ body.index .layout-content main ~ aside {
         margin-right: 1em;
         margin-top: $dimension-main-nav-height;
       }
+
       > aside {
         align-self: start;
         grid-column: 2;
         grid-row: 2;
       }
+
       > footer {
         grid-column: auto / span 2;
         grid-row: 3;
@@ -72,15 +84,18 @@ body.index .layout-content main ~ aside {
 @supports not( display: grid) {
   body.index .layout-content {
     @include clearfix;
+
     > main {
       float: left;
       margin-right: 2%;
       width: $main-column - 2%;
     }
+
     > aside {
       float: right;
       width: $aside-column;
     }
+
     > footer {
       clear: left;
       float: left;

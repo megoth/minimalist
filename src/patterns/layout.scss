@@ -38,19 +38,6 @@ footer {
   padding: 0.5em 0;
 }
 
-#cookies.js-enabled {
-  background: $color-link;
-  bottom: 0;
-  color: $color-background;
-  padding: 0.5em 0;
-  position: fixed;
-  width: 100%;
-
-  a {
-    color: $color-background;
-  }
-}
-
 @supports (display: flex) {
   .layout-container {
     display: flex;
