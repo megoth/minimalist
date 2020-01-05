@@ -11,7 +11,7 @@ dl.list-skills {
           background-color: $color-nav-main;
         }
         &--warning {
-          background-color: $color-divider;
+          background-color: rgba($color-link-focus, 0.5);
         }
       }
     }
